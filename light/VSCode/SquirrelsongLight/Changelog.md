@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.11
+
+- Make the search highlight color semi-transparent to avoid it from swallowing selection
+
 ## 2.0.10
 
 - Fix incorrect colors

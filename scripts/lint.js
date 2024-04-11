@@ -19,10 +19,12 @@ const EXCEPTIONS_LIGHT = [
   '#ffffffff',
   // Semi-transparent color variations
   '#f8e59666',
+  '#f2b5cb66',
   '#a7b38640',
   '#cc5c5240',
   '#72707540',
   '#72707560',
+  '#9f9aa766',
   '#f5f5f7b2',
   // Extended palette
   '#1d1d1f',
