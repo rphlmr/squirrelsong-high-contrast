@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.12
+
+- More subtle badge colors
+
 ## 2.0.11
 
 - Make the search highlight color semi-transparent to avoid it from swallowing selection
