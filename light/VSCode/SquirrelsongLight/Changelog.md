@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.13
+
+- Make badge colors semitransparent so they look better on different backgrounds.
+
 ## 2.0.12
 
 - More subtle badge colors
