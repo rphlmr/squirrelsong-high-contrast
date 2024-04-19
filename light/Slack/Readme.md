@@ -5,7 +5,7 @@
 1. Copy the values below:
 
     ```
-    #F5F5F7,#F5F5F7,#D9D7DC,#4B4A4D,#CBC9CE,#4B4A4D,#80A4BE,#80A4BE,#F5F5F7,#4B4A4D
+    #C3CCD6,#AF9FC7,#4E7997,#856CAA
     ```
 
 2. Open **Preferences → Themes** in Slack.
