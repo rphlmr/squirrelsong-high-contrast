@@ -1,5 +1,7 @@
 # Squirrelsong Light Theme for [Slack](https://slack.com/)
 
+![Squirrelsong Light theme](screenshot.png)
+
 ## Installation
 
 1. Copy the values below:

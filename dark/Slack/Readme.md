@@ -1,5 +1,7 @@
 # Squirrelsong Dark Theme for [Slack](https://slack.com/)
 
+![Squirrelsong Dark theme](screenshot.png)
+
 ## Installation
 
 1. Copy the values below:
