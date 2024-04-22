@@ -102,7 +102,7 @@
     "list.hoverBackground": "#d9d7dc",
     "list.inactiveSelectionBackground": "#e9e9ef",
     "panel.background": "#ffffff",
-    "panelTitle.activeForeground": "#727075",
+    "panelTitle.activeForeground": "#4b4a4d",
     "panelTitle.inactiveForeground": "#727075",
     "peekViewEditor.matchHighlightBackground": "#eeceac",
     "peekViewResult.matchHighlightBackground": "#e9d9a8",

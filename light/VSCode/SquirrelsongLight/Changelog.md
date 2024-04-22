@@ -2,11 +2,12 @@
 
 ## 2.0.14
 
-- Make primary button colors more subtle.
+- Make primary button colors more subtle
+- Make active panel tab titles more distinguishable
 
 ## 2.0.13
 
-- Make badge colors semitransparent so they look better on different backgrounds.
+- Make badge colors semitransparent so they look better on different backgrounds
 
 ## 2.0.12
 
