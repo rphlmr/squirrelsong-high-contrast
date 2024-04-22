@@ -13,10 +13,13 @@ Install [Squirrelsong.terminal](https://raw.githubusercontent.com/sapegin/squirr
 ## Available themes
 
 * [iTerm2](./iTerm2)
+* [Midnight Commander](./Midnight%20Commander)
 * [Prism.js](./PrismJs)
+* [Slack](./Slack)
 * [Sublime Text](./Sublime%20Text)
 * [Terminal.app](./Terminal)
 * [Visual Studio Code](./VSCode)
+* [WezTerm](./WezTerm)
 
 ## Colors
 
