@@ -3,6 +3,7 @@
 ## 2.0.14
 
 - Make primary button colors more subtle
+- Make diff editor colors more subtle
 - Make active panel tab titles more distinguishable
 
 ## 2.0.13

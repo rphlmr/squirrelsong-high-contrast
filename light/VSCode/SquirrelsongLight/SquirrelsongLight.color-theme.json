@@ -189,8 +189,11 @@
     // WARN: Following colors must NOT be opaque
     "editor.wordHighlightBackground": "#f8e59666",
     "editor.wordHighlightStrongBackground": "#f8e59666",
-    "diffEditor.insertedTextBackground": "#a7b38640",
-    "diffEditor.removedTextBackground": "#cc5c5240",
+    "diffEditor.insertedTextBackground": "#5a7f2411",
+    "diffEditor.insertedLineBackground": "#5a7f2411",
+    "diffEditor.removedTextBackground": "#bc524811",
+    "diffEditor.removedLineBackground": "#bc524811",
+    "diffEditor.diagonalFill": "#f5f5f7",
     "scrollbarSlider.background": "#72707540",
     "scrollbarSlider.hoverBackground": "#72707560"
   },
