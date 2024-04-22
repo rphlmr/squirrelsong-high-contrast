@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.4
+
+- Fix some of the color that are supposed to be semi-transparent.
+
 ## 2.0.3
 
 - Make selection background color more visible.
