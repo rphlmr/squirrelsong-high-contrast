@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.14
+
+- Make primary button colors more subtle.
+
 ## 2.0.13
 
 - Make badge colors semitransparent so they look better on different backgrounds.
