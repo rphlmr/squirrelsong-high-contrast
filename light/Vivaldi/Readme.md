@@ -2,6 +2,10 @@
 
 ![Squirrelsong Light theme](screenshot.png)
 
+## Installation from Vivaldi Themes
+
+[Follow the instructions](https://themes.vivaldi.net/themes/zrnvL6V67L4)
+
 ## Installation from GitHub
 
 1. Download [Squirrelsong Light.zip](Squirrelsong%20Light.zip).

@@ -10,12 +10,14 @@
 * [Google Chrome DevTools](./Chrome%20DevTools)
 * [CotEditor](./CotEditor)
 * [JetBrains](./JetBrains)
+* [Marta File Manager](./Marta)
 * [Nimble Commander](./Nimble%20Commander)
 * [Prism.js](./PrismJs)
 * [Slack](./Slack)
 * [Sublime Text](./Sublime%20Text)
 * [Telegram](./Telegram)
 * [Visual Studio Code](./VSCode)
+* [Vivaldi](./Vivaldi)
 
 ## Colors
 
