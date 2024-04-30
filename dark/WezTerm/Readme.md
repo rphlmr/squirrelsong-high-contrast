@@ -4,7 +4,7 @@
 
 ## Installation from GitHub
 
-1. Copy the [squirrelsong-dark.lua](Squirrelsong%20Dark.lua) to `~/.config/wezterm/`.
+1. Copy the [squirrelsong-dark.lua](squirrelsong-dark.lua) to `~/.config/wezterm/`.
 
 2. Update your WezTerm config, `~/.wezterm.lua`, so it looks something like this:
 
