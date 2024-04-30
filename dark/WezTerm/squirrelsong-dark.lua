@@ -1,6 +1,5 @@
--- Colors
--- https://github.com/sapegin/squirrelsong
-config.colors = {
+-- https://sapegin.me/squirrelsong/
+return {
 	foreground = '#9e8a74',
 	background = '#352a21',
 
@@ -65,13 +64,3 @@ config.colors = {
 		inactive_tab_edge = '#352a21',
 	}
 }
-
-config.window_frame = {
-	-- Fancy tab bar
-	active_titlebar_bg = '#574131',
-	inactive_titlebar_bg = '#352a21',
-}
-
--- Command Palette
-config.command_palette_bg_color = "#44382D"
-config.command_palette_fg_color = "#c4a389"
