@@ -11,6 +11,12 @@
         "arrowParens": "avoid",
         "proseWrap": "never"
       }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 120
+      }
     }
   ]
 }
