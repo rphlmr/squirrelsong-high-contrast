@@ -20,4 +20,4 @@ If you have questions or concerns about this privacy policy, feel free to [send 
 
 ## Notes
 
-1 - When I say "substantive," I mean that I won't push out app updates for minor changes like fixing a typo.
+1. When I say "substantive," I mean that I won't push out app updates for minor changes like fixing a typo.

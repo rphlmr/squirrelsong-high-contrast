@@ -1,6 +1,7 @@
 # Squirrelsong Light Theme for [Bear](https://bear.app/)
 
-_Warning:_ There’s no official support for custom themes in Bear, apply the following instructions at your own risk.
+> [!WARNING]
+> There’s no official support for custom themes in Bear, apply the following instructions at your own risk.
 
 ## Installation from GitHub
 
