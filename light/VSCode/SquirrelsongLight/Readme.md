@@ -40,7 +40,7 @@ To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemNa
     "terminal.findMatchHighlightBackground": "#ca5a8366",
     "terminal.findMatchHighlightBorder": "#ca5a83",
     "terminal.foreground": "#9e8a74",
-    "terminal.hoverHighlightBackground": "#f5da7022",
+    "terminal.hoverHighlightBackground": "#9e8a7433",
     "terminal.inactiveSelectionBackground": "#41352a",
     "terminal.selectionBackground": "#41352a",
     "terminalCommandDecoration.defaultBackground": "#896b56",
@@ -56,7 +56,7 @@ To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemNa
   // Without this line colors will be washed out
   "terminal.integrated.minimumContrastRatio": 1,
   // Use normal colors for bold text
-  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false
 }
 ```
 
