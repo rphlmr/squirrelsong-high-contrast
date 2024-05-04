@@ -14,7 +14,7 @@ A low contrast light theme for web developers.
 
 To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongDark) theme in the integrated terminal, add the following to your Visual Studio Code config:
 
-```json
+```json5
 {
   "workbench.colorCustomizations": {
     "terminal.ansiBlack": "#352a21",
