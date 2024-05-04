@@ -6,4 +6,4 @@
 
 1. Download [squirrelsong-dark.ini](squirrelsong-dark.ini), and place it in `~/.local/share/mc/skins`.
 2. Open **Settings** menu, then **Appearance**.
-4. Select `squirrelsong-dark` in the **Skin** dropdown.
+3. Select `squirrelsong-dark` in the **Skin** dropdown.

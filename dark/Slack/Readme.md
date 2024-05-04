@@ -6,9 +6,9 @@
 
 1. Copy the values below:
 
-    ```
-    #58406E,#503A5C,#41635F,#CA5A83
-    ```
+   ```
+   #58406E,#503A5C,#41635F,#CA5A83
+   ```
 
 2. Open **Preferences → Themes** in Slack.
 3. Select **Dark** at the top.

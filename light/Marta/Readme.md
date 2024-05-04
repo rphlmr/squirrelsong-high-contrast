@@ -8,19 +8,19 @@
 1. Download [SquirrelsongLight.ettyTheme](SquirrelsongLight.ettyTheme) and put it to `/Applications/Marta.app/Contents/Resources/Themes`.
 1. Open **Preferences** and add the following configuration to point to the new theme:
 
-    ```sh
-    behavior {
-        theme "Squirrelsong Light"
-    }
+   ```sh
+   behavior {
+       theme "Squirrelsong Light"
+   }
 
-    etty {
-        theme "SquirrelsongLight"
+   etty {
+       theme "SquirrelsongLight"
 
-        fonts {
-            normal [ "MonoLisa" 15 ]
-        }
-    }
-    ```
+       fonts {
+           normal [ "MonoLisa" 15 ]
+       }
+   }
+   ```
 
 1. Restart the app for the changes to take effect.
 

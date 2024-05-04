@@ -6,9 +6,9 @@
 
 1. Copy the values below:
 
-    ```
-    #C3CCD6,#D7CFE3,#4E7997,#AF9FC7
-    ```
+   ```
+   #C3CCD6,#D7CFE3,#4E7997,#AF9FC7
+   ```
 
 2. Open **Preferences → Themes** in Slack.
 3. Select **Light** at the top **Color Mode** section.

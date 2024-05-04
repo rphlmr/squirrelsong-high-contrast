@@ -9,4 +9,3 @@
 3. Open **Color presets** dropdown at the bottom, and choose **Import**.
 4. Select `Squirrelsong Dark.itermcolors`.
 5. Select **Squirrelsong Dark** in **Color presets** dropdown.
-

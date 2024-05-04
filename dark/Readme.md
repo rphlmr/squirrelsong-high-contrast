@@ -12,21 +12,21 @@ Install [Squirrelsong.terminal](https://raw.githubusercontent.com/sapegin/squirr
 
 ## Available themes
 
-* [iTerm2](./iTerm2)
-* [Midnight Commander](./Midnight%20Commander)
-* [Prism.js](./PrismJs)
-* [Slack](./Slack)
-* [Sublime Text](./Sublime%20Text)
-* [Terminal.app](./Terminal)
-* [Visual Studio Code](./VSCode)
-* [Warp](./Warp)
-* [WezTerm](./WezTerm)
+- [iTerm2](./iTerm2)
+- [Midnight Commander](./Midnight%20Commander)
+- [Prism.js](./PrismJs)
+- [Slack](./Slack)
+- [Sublime Text](./Sublime%20Text)
+- [Terminal.app](./Terminal)
+- [Visual Studio Code](./VSCode)
+- [Warp](./Warp)
+- [WezTerm](./WezTerm)
 
 ## Colors
 
 <!-- palette:begin -->
 
-| | Name | Hex | RGB |
+|  | Name | Hex | RGB |
 | --- | --- | --- | --- |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=0a0909" width="20" height="20" alt=""> | gray00 | #0a0909 | 10, 9, 9 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=352a21" width="20" height="20" alt=""> | gray03 | #352a21 | 53, 42, 33 |
@@ -75,34 +75,34 @@ Install [Squirrelsong.terminal](https://raw.githubusercontent.com/sapegin/squirr
 
 ### Code colors
 
-| | Where | Color | Hex | Style |
+|  | Where | Color | Hex | Style |
 | --- | --- | --- | --- | --- |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9e8a74" width="20" height="20" alt=""> | Punctuation | gray09 | #9e8a74 | |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=755945" width="20" height="20" alt=""> | Comment | gray07 | #755945 | |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9e8a74" width="20" height="20" alt=""> | Punctuation | gray09 | #9e8a74 |  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=755945" width="20" height="20" alt=""> | Comment | gray07 | #755945 |  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=7f61b3" width="20" height="20" alt=""> | Keyword, tag name | purple | #7f61b3 | Bold |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=b18433" width="20" height="20" alt=""> | Number, boolean | orange | #b18433 | |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=5d99cb" width="20" height="20" alt=""> | Property, attribute name | blue | #5d99cb | |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=b18433" width="20" height="20" alt=""> | Number, boolean | orange | #b18433 |  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=5d99cb" width="20" height="20" alt=""> | Property, attribute name | blue | #5d99cb |  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=5d99cb" width="20" height="20" alt=""> | Variable | blue | #5d99cb | Italic |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=5d99cb" width="20" height="20" alt=""> | Function | blue | #5d99cb | Bold |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=558240" width="20" height="20" alt=""> | String, attribute value, inserted | green | #558240 | |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4f9593" width="20" height="20" alt=""> | Type, namespace, colon | teal | #4f9593 | |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=558240" width="20" height="20" alt=""> | String, attribute value, inserted | green | #558240 |  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4f9593" width="20" height="20" alt=""> | Type, namespace, colon | teal | #4f9593 |  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4f9593" width="20" height="20" alt=""> | Class, at-rule, operator | teal | #4f9593 | Bold |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ac493e" width="20" height="20" alt=""> | Regexp, deleted | red | #ac493e | |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ac493e" width="20" height="20" alt=""> | Regexp, deleted | red | #ac493e |  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ac493e" width="20" height="20" alt=""> | Important | red | #ac493e | Bold |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=64a1d3" width="20" height="20" alt=""> | URL | blueContrast | #64a1d3 | |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=41352a" width="20" height="20" alt=""> | Selection background | brightYellowDark | #41352a | |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=64a1d3" width="20" height="20" alt=""> | URL | blueContrast | #64a1d3 |  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=41352a" width="20" height="20" alt=""> | Selection background | brightYellowDark | #41352a |  |
 
 ### UI colors
 
-| | Where | Color | Hex | Comments |
+|  | Where | Color | Hex | Comments |
 | --- | --- | --- | --- | --- |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9e8a74" width="20" height="20" alt=""> | Text foreground | gray09 | #9e8a74 | |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=352a21" width="20" height="20" alt=""> | Text background | gray03 | #352a21 | |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=564538" width="20" height="20" alt=""> | Selection background | brightYellow | #564538 | |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9e8a74" width="20" height="20" alt=""> | Text foreground | gray09 | #9e8a74 |  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=352a21" width="20" height="20" alt=""> | Text background | gray03 | #352a21 |  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=564538" width="20" height="20" alt=""> | Selection background | brightYellow | #564538 |  |
 
 ### ANSI colors
 
-| | Name | Color | Hex |
+|  | Name | Color | Hex |
 | --- | --- | --- | --- |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=352a21" width="20" height="20" alt=""> | Black | gray03 | #352a21 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=6b503c" width="20" height="20" alt=""> | Black bright | gray06 | #6b503c |

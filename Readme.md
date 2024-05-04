@@ -31,4 +31,3 @@ Maintaining a color theme for multiple editors takes time and coffee, buy me one
 [Artem Sapegin](https://sapegin.me) and [contributors](https://github.com/sapegin/squirrelsong/graphs/contributors).
 
 The MIT License, see the included [License.md](License.md) file. Also see the [project status](https://github.com/sapegin/squirrelsong/discussions/4).
-
