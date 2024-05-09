@@ -32,7 +32,7 @@ To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemNa
     "terminal.ansiMagenta": "#7f61b3",
     "terminal.ansiRed": "#bc5248",
     "terminal.ansiWhite": "#c4a389",
-    "terminal.ansiYellow": "#e2c54c",
+    "terminal.ansiYellow": "#ceb250",
     "terminal.background": "#352a21",
     "terminal.border": "#574131",
     "terminal.findMatchBackground": "#ca5a8366",
