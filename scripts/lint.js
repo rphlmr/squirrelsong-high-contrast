@@ -12,21 +12,13 @@ let errorCount = 0;
 
 const IGNORES = ['package.json', 'package-lock.json'];
 
-// TODO: This should probably go to the palette.json
 const EXCEPTIONS_LIGHT = [
   // Transparent colors
   '#ffffff00',
   '#ffffffff',
-  // Semi-transparent color variations
-  '#f8e59666',
-  '#f2b5cb66',
-  '#a7b38640',
-  '#cc5c5240',
-  '#72707540',
-  '#72707560',
-  '#9f9aa766',
-  '#f5f5f7b2',
-  // Extended palette
+]
+// Extended palette (only for JetBrains)
+const EXTENDED_LIGHT = [
   '#1d1d1f',
   '#272629',
   '#373538',
@@ -121,15 +113,6 @@ const EXCEPTIONS_DARK = [
   // Transparent colors
   '#ffffff00',
   '#ffffffff',
-  // Semi-transparent color variations
-  '#352a2100',
-  '#56453880',
-  '#55824040',
-  '#ac493e40',
-  '#9e8a7420',
-  '#9e8a7440',
-  '#9e8a7460',
-  '#45332720',
 ];
 
 const CUSTOM_LINTERS = [
@@ -189,19 +172,22 @@ function isHexColor(value) {
   return /^#[0-9a-f]{3,8}$/i.test(value);
 }
 
-function isValidHexColor(value, validColors, exceptions) {
+function isValidHexColor(value, validColors, exceptions, extended = []) {
   const color = value.toLowerCase();
 
   if (exceptions.includes(color)) {
+    return true;
+  }
+  if (extended.includes(color)) {
     return true;
   }
   if (validColors.includes(color)) {
     return true;
   }
 
-  // Validate fully opaque color as regular HEX: #c0ffeeff -> #c0ffee
-  if (color.length === 9 && color.endsWith('ff')) {
-    return isValidHexColor(color.slice(0, 7), validColors, exceptions);
+  // Validate colors with alpha channel as regular HEX: #c0ffeeff -> #c0ffee
+  if (color.length === 9) {
+    return isValidHexColor(color.slice(0, 7), validColors, exceptions, extended);
   }
 
   return false;
@@ -217,8 +203,18 @@ function scanObject(obj, callback) {
   }
 }
 
-function lintJson(file, validColors, exceptions) {
-  const theme = readJsonFile(file);
+function lintJson(file, validColors, exceptions, extended) {
+  let theme;
+  try {
+    theme = readJsonFile(file);
+  }
+  catch (err) {
+    lintText(file, validColors, exceptions, extended)
+    return;
+  }
+
+  const extendedPalette = file.includes('JetBrains') ? extended : [];
+
   // console.log('🦜', theme);
   scanObject(theme, (value) => {
     if (isCssNamedColor(value)) {
@@ -228,15 +224,14 @@ function lintJson(file, validColors, exceptions) {
     }
     if (isHexColor(value)) {
       const color = value.toLowerCase();
-      if (isValidHexColor(color, validColors, exceptions) === false) {
+      if (isValidHexColor(color, validColors, exceptions, extendedPalette) === false) {
         achtung(value);
       }
-      return;
     }
   });
 }
 
-function lintText(file, validColors, exceptions) {
+function lintText(file, validColors, exceptions, extended) {
   const text = fs.readFileSync(file, 'utf8');
 
   const matches = text.match(/#[0-9a-f]{3,8}\b/i);
@@ -248,14 +243,14 @@ function lintText(file, validColors, exceptions) {
   });
 }
 
-function lint(root, palette, exceptions) {
+function lint(root, palette, exceptions, extended) {
   const validColors = Object.values(palette);
   const themes = glob.sync(
     `${root}/*/**/*.{json,css,lua,alfredappearance,theme,tmTheme,palette}`,
   );
   themes.forEach((file) => {
     const filename = path.basename(file);
-    if (IGNORES.includes(filename)) {
+    if (IGNORES.includes(filename) || file.includes('node_modules')) {
       return;
     }
     const extension = path.extname(file);
@@ -267,7 +262,7 @@ function lint(root, palette, exceptions) {
 
     for (const { condition, lintFunction } of CUSTOM_LINTERS) {
       if (condition(file)) {
-        lintFunction(file, validColors, exceptions);
+        lintFunction(file, validColors, exceptions, extended);
         return;
       }
     }
@@ -276,13 +271,13 @@ function lint(root, palette, exceptions) {
       case '.json':
       case '.theme':
       case '.alfredappearance':
-        lintJson(file, validColors, exceptions);
+        lintJson(file, validColors, exceptions, extended);
         break;
       case '.css':
       case '.lua':
       case '.tmTheme':
       case '.palette':
-        lintText(file, validColors, exceptions);
+        lintText(file, validColors, exceptions, extended);
         break;
       default:
         console.error('Unknown file type', file);
@@ -293,12 +288,12 @@ function lint(root, palette, exceptions) {
 console.log();
 console.log('[LINT] Linting light themes... 🌞');
 const lightPalette = readJsonFile('light/palette.json');
-lint('light', lightPalette, EXCEPTIONS_LIGHT);
+lint('light', lightPalette, EXCEPTIONS_LIGHT, EXTENDED_LIGHT);
 
 console.log();
 console.log('[LINT] Linting dark themes... 🌚');
 const darkPalette = readJsonFile('dark/palette.json');
-lint('dark', darkPalette, EXCEPTIONS_DARK);
+lint('dark', darkPalette, EXCEPTIONS_DARK, []);
 
 console.log();
 console.log(`[LINT] ${errorCount} errors found 🦜`);

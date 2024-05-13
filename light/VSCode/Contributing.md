@@ -32,7 +32,9 @@ npm run publish major
 ## Debugging
 
 1. `cd` to the theme package.
-2. `code `.
+2. `code .`.
 3. Press F5.
 
 To debug tokens, open command palette (Cmd+Shift+P), and select "Inspect Editor Tokens and Scopes".
+
+To open developer tools, open command palette (Cmd+Shift+P), and select "Developer: Toggle Developer Tools".
