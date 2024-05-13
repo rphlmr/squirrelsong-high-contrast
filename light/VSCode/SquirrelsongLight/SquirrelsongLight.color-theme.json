@@ -1012,6 +1012,46 @@
       "settings": {
         "foreground": "#d67e76"
       }
+    },
+    {
+      "scope": [
+        // Search results
+        "meta.path.search"
+      ],
+      "settings": {
+        "foreground": "#4e7997",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": [
+        // Search results
+        "meta.path.basename.search"
+      ],
+      "settings": {
+        "foreground": "#4e7997",
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "scope": [
+        // Search results
+        "meta.resultLinePrefix.search"
+      ],
+      "settings": {
+        "foreground": "#c9c4cf",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        // Search results
+        "meta.resultLinePrefix.matchLinePrefix.search"
+      ],
+      "settings": {
+        "foreground": "#78737d",
+        "fontStyle": ""
+      }
     }
   ]
 }
