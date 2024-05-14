@@ -1,6 +1,6 @@
 # Squirrelsong Light color theme
 
-![Squirrelsong Light](https://github.com/sapegin/squirrelsong/raw/master/light/VSCode/SquirrelsongLight/screenshot.png)
+![Squirrelsong Light](https://github.com/sapegin/squirrelsong/raw/master/light/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)
 
 ## Available themes
 
