@@ -463,7 +463,8 @@
         // Markdown
         "markup.underline.link.markdown",
         "markup.underline.link.image.markdown",
-        "constant.other.reference.link.markdown"
+        "constant.other.reference.link.markdown",
+        "markup.inline.raw.string.markdown"
       ],
       "settings": {
         "foreground": "#9c96a2",
