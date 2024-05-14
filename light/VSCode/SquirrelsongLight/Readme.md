@@ -2,7 +2,7 @@
 
 A low-contrast, non-distracting and neurodiverse-friendly theme that is comfortable for all-day coding without sensory overstimulation, and perfect for developers with ADHD, autism, or highly sensitive people (HSP). No bright colors, no super-high contrast, no distractions. Soft colors but still enough legibility for different part of the code and UI.
 
-![Squirrelsong Light for Visual Studio Code](screenshots/screenshot.jpg)
+![Squirrelsong Light for Visual Studio Code](https://github.com/sapegin/squirrelsong/raw/HEAD/light/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)
 
 - Low contrast with great readability
 - Made for web developers and highly sensitive people
@@ -10,9 +10,9 @@ A low-contrast, non-distracting and neurodiverse-friendly theme that is comforta
 - Consistent highlighting for different programming languages
 - Non-distracting UI
 
-![Squirrelsong Light: editing code](screenshots/screenshot-code.png)
+![Squirrelsong Light: editing code](https://github.com/sapegin/squirrelsong/raw/HEAD/light/VSCode/SquirrelsongLight/screenshots/screenshot-code.png)
 
-![Squirrelsong Light: opening files](screenshots/screenshot-files.jpg)
+![Squirrelsong Light: opening files](https://github.com/sapegin/squirrelsong/raw/HEAD/light/VSCode/SquirrelsongLight/screenshots/screenshot-files.jpg)
 
 ## How to make the integrated terminal dark?
 
