@@ -1,7 +1,7 @@
 {
   "name": "Theme-SquirrelsongLight",
   "displayName": "Squirrelsong Light Theme",
-  "description": "Low contrast light color theme",
+  "description": "Low-contrast light color theme",
   "version": "2.0.14",
   "publisher": "sapegin",
   "author": {
@@ -19,8 +19,10 @@
     "theme",
     "light theme",
     "squirrelsong",
-    "low contrast theme",
-    "scheme"
+    "low-contrast theme",
+    "scheme",
+    "non-distracting",
+    "neurodiverse-friendly"
   ],
   "icon": "icon.png",
   "homepage": "https://github.com/sapegin/squirrelsong",
@@ -28,8 +30,14 @@
     "type": "git",
     "url": "https://github.com/sapegin/squirrelsong.git"
   },
+  "bugs": {
+    "url": "https://github.com/sapegin/squirrelsong/issues"
+  },
   "sponsor": {
     "url": "https://www.buymeacoffee.com/sapegin"
+  },
+  "galleryBanner": {
+    "color": "#ebe7f1"
   },
   "contributes": {
     "themes": [
