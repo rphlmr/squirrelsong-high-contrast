@@ -24,7 +24,7 @@
     "non-distracting",
     "neurodiverse-friendly"
   ],
-  "icon": "icon.png",
+  "icon": "images/icon.png",
   "homepage": "https://github.com/sapegin/squirrelsong",
   "repository": {
     "type": "git",
@@ -48,6 +48,10 @@
       }
     ]
   },
+  "files": [
+    "SquirrelsongLight.color-theme.json",
+    "images/icon.png"
+  ],
   "scripts": {
     "publish": "vsce publish"
   },
