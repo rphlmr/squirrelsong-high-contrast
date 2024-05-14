@@ -190,6 +190,7 @@
     "merge.currentContentBackground": "#5f9b8d44",
     "merge.incomingContentBackground": "#ac9bc544",
     "merge.incomingHeaderBackground": "#ac9bc588",
+    "mergeEditor.change.word.background": "#617c3c33",
     "notificationCenter.border": "#e8e5eb",
     "notificationCenterHeader.background": "#f7f6f9",
     "notificationCenterHeader.foreground": "#4c4b4e",
