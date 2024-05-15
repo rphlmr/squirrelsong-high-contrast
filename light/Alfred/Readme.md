@@ -1,10 +1,10 @@
 # Squirrelsong Light Theme for [Alfred](https://www.alfredapp.com/)
 
-![Squirrelsong Light](https://github.com/sapegin/squirrelsong/raw/master/light/Alfred/screenshot.png)
+![Squirrelsong Light](screenshot.png)
 
 ## Installation from Alfredapp.com
 
-[Follow the instructions at Alfredapp.com](https://www.alfredapp.com/extras/theme/ayOamLY0jj/)
+[Follow the instructions at Alfredapp.com](https://www.alfredapp.com/extras/theme/5IzAzy3Fuj/)
 
 ## Installation from GitHub
 
