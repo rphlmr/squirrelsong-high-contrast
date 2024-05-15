@@ -4,7 +4,7 @@
 
 ## Installation from Alfredapp.com
 
-[Follow the instructions at Alfredapp.com](https://www.alfredapp.com/extras/theme/ifgQoqnZHq/)
+[Follow the instructions at Alfredapp.com](https://www.alfredapp.com/extras/theme/ayOamLY0jj/)
 
 ## Installation from GitHub
 
