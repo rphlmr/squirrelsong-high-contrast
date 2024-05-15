@@ -2,7 +2,10 @@
 
 ## 3.1.0
 
-- Add light theme with dark terminal
+- Add light theme with dark terminal (`Squirrelsong Light (Dark Terminal)`)
+- Add colors for testing
+- Add colors for debugging
+- Make scrollbar slider colors a bit softer
 
 ## 3.0.2
 
