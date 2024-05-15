@@ -1,3 +1,7 @@
+/**
+ * Lint themes to ensure they only use colors from the palette
+ */
+
 import fs from 'fs';
 import path from 'path';
 import { glob } from 'glob';
@@ -10,13 +14,17 @@ import cssColorNames from 'css-color-names' with { type: 'json' };
 
 let errorCount = 0;
 
-const IGNORES = ['package.json', 'package-lock.json'];
+const IGNORES = [
+  'package.json',
+  'package-lock.json',
+  'SquirrelsongLightDarkTerminal.color-theme.json',
+];
 
 const EXCEPTIONS_LIGHT = [
   // Transparent colors
   '#ffffff00',
   '#ffffffff',
-]
+];
 // Extended palette (only for JetBrains)
 const EXTENDED_LIGHT = [
   '#1d1d1f',
@@ -109,11 +117,7 @@ const EXTENDED_LIGHT = [
   '#ede7f6',
 ];
 
-const EXCEPTIONS_DARK = [
-  // Transparent colors
-  '#ffffff00',
-  '#ffffffff',
-];
+const EXCEPTIONS_DARK = EXCEPTIONS_LIGHT;
 
 const CUSTOM_LINTERS = [
   {
@@ -187,7 +191,12 @@ function isValidHexColor(value, validColors, exceptions, extended = []) {
 
   // Validate colors with alpha channel as regular HEX: #c0ffeeff -> #c0ffee
   if (color.length === 9) {
-    return isValidHexColor(color.slice(0, 7), validColors, exceptions, extended);
+    return isValidHexColor(
+      color.slice(0, 7),
+      validColors,
+      exceptions,
+      extended,
+    );
   }
 
   return false;
@@ -207,9 +216,8 @@ function lintJson(file, validColors, exceptions, extended) {
   let theme;
   try {
     theme = readJsonFile(file);
-  }
-  catch (err) {
-    lintText(file, validColors, exceptions, extended)
+  } catch (err) {
+    lintText(file, validColors, exceptions, extended);
     return;
   }
 
@@ -224,7 +232,10 @@ function lintJson(file, validColors, exceptions, extended) {
     }
     if (isHexColor(value)) {
       const color = value.toLowerCase();
-      if (isValidHexColor(color, validColors, exceptions, extendedPalette) === false) {
+      if (
+        isValidHexColor(color, validColors, exceptions, extendedPalette) ===
+        false
+      ) {
         achtung(value);
       }
     }

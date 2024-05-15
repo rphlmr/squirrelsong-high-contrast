@@ -26,7 +26,7 @@ Install [Squirrelsong.terminal](https://raw.githubusercontent.com/sapegin/squirr
 
 <!-- palette:begin -->
 
-|  | Name | Hex | RGB |
+| | Name | Hex | RGB |
 | --- | --- | --- | --- |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=0a0909" width="20" height="20" alt=""> | gray00 | #0a0909 | 10, 9, 9 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=352a21" width="20" height="20" alt=""> | gray03 | #352a21 | 53, 42, 33 |
@@ -38,11 +38,11 @@ Install [Squirrelsong.terminal](https://raw.githubusercontent.com/sapegin/squirr
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9e8a74" width="20" height="20" alt=""> | gray09 | #9e8a74 | 158, 138, 116 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=c4a389" width="20" height="20" alt=""> | gray0c | #c4a389 | 196, 163, 137 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=dcd5c0" width="20" height="20" alt=""> | gray0d | #dcd5c0 | 220, 213, 192 |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=558240" width="20" height="20" alt=""> | gren | #558240 | 85, 130, 64 |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=558240" width="20" height="20" alt=""> | green | #558240 | 85, 130, 64 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=44603b" width="20" height="20" alt=""> | greenLight | #44603b | 68, 96, 59 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=445536" width="20" height="20" alt=""> | greenLighter | #445536 | 68, 85, 54 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=73a15c" width="20" height="20" alt=""> | greenContrast | #73a15c | 115, 161, 92 |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4f9593" width="20" height="20" alt=""> | teal | #4f9593 | 83, 158, 155 |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4f9593" width="20" height="20" alt=""> | teal | #4f9593 | 79, 149, 147 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=41635f" width="20" height="20" alt=""> | tealLight | #41635f | 65, 99, 95 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=3e5550" width="20" height="20" alt=""> | tealLighter | #3e5550 | 62, 85, 80 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=62b0ad" width="20" height="20" alt=""> | tealContrast | #62b0ad | 98, 176, 173 |
@@ -69,7 +69,7 @@ Install [Squirrelsong.terminal](https://raw.githubusercontent.com/sapegin/squirr
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ca5a83" width="20" height="20" alt=""> | brightPink | #ca5a83 | 202, 90, 131 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=5b3739" width="20" height="20" alt=""> | brightPinkDark | #5b3739 | 91, 55, 57 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=564538" width="20" height="20" alt=""> | brightYellow | #564538 | 86, 69, 56 |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=41352a" width="20" height="20" alt=""> | brightYellowDark | #41352a | 53, 42, 34 |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=41352a" width="20" height="20" alt=""> | brightYellowDark | #41352a | 65, 53, 42 |
 
 <!-- palette:end -->
 

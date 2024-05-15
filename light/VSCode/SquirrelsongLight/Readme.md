@@ -2,6 +2,8 @@
 
 A low-contrast, non-distracting and neurodiverse-friendly theme that is comfortable for all-day coding without sensory overstimulation, and perfect for developers with ADHD, autism, or highly sensitive people (HSP). No bright colors, no super-high contrast, no distractions. Soft colors but still enough legibility for different part of the code and UI.
 
+[Install on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongLight)
+
 ![Squirrelsong Light for Visual Studio Code](https://github.com/sapegin/squirrelsong/raw/HEAD/light/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)
 
 - Low contrast with great readability
@@ -10,53 +12,56 @@ A low-contrast, non-distracting and neurodiverse-friendly theme that is comforta
 - Consistent highlighting for different programming languages
 - Non-distracting UI
 
+## Installation
+
+1. Open **Extensions** sidebar panel in VS Code: **View** → **Extensions**.
+2. Search for `Squirrelsong Light`.
+3. Click **Install** to install it.
+4. Choose **Code** → **Preferences** → **Color Theme** → `Squirrelsong Light`.
+
+## Recommended settings
+
+I recommend to also install [Catppuccin Icons](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons) icons pack (I use the `Latte` variant).
+
+Here are my settings related to theming and typography:
+
+```json5
+{
+  // This is all that matters
+  "workbench.colorTheme": "Squirrelsong Light",
+  // Monolisa (https://www.monolisa.dev) is a paid font but I love it,
+  // Hack and JetBrains Mono are good free alternatives
+  "editor.fontFamily": "MonoLisa",
+  // Enable contextual alternative but disable ligatures
+  "editor.fontLigatures": "'calt' on, 'liga' off",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.6,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.semanticHighlighting.enabled": true,
+  "window.zoomLevel": 0.15,
+  "workbench.fontAliasing": "auto",
+  // If you also install Catppuccin Icons
+  "workbench.iconTheme": "catppuccin-latte",
+  "catppuccin-icons.hidesExplorerArrows": true
+}
+```
+
+## More screenshots
+
 ![Squirrelsong Light: editing code](https://github.com/sapegin/squirrelsong/raw/HEAD/light/VSCode/SquirrelsongLight/screenshots/screenshot-code.png)
 
 ![Squirrelsong Light: opening files](https://github.com/sapegin/squirrelsong/raw/HEAD/light/VSCode/SquirrelsongLight/screenshots/screenshot-files.jpg)
 
 ## How to make the integrated terminal dark?
 
-To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongDark) theme in the integrated terminal, add the following to your Visual Studio Code config:
+To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongDark) theme in the integrated terminal, choose the `Squirrelsong Light (Dark Terminal)` theme instead of the `Squirrelsong Light`.
+
+Also, add these two options to your config ():
 
 ```json5
 {
-  "workbench.colorCustomizations": {
-    "terminal.ansiBlack": "#352a21",
-    "terminal.ansiBlue": "#5d99cb",
-    "terminal.ansiBrightBlack": "#6b503c",
-    "terminal.ansiBrightBlue": "#64a1d3",
-    "terminal.ansiBrightCyan": "#adccc5",
-    "terminal.ansiBrightGreen": "#73a15c",
-    "terminal.ansiBrightMagenta": "#a08ac2",
-    "terminal.ansiBrightRed": "#db7666",
-    "terminal.ansiBrightWhite": "#dcd5c0",
-    "terminal.ansiBrightYellow": "#e2c54c",
-    "terminal.ansiCyan": "#4f9593",
-    "terminal.ansiGreen": "#558240",
-    "terminal.ansiMagenta": "#7f61b3",
-    "terminal.ansiRed": "#bc5248",
-    "terminal.ansiWhite": "#c4a389",
-    "terminal.ansiYellow": "#ceb250",
-    "terminal.background": "#352a21",
-    "terminal.border": "#574131",
-    "terminal.findMatchBackground": "#ca5a8366",
-    "terminal.findMatchBorder": "#ca5a83",
-    "terminal.findMatchHighlightBackground": "#ca5a8366",
-    "terminal.findMatchHighlightBorder": "#ca5a83",
-    "terminal.foreground": "#9e8a74",
-    "terminal.hoverHighlightBackground": "#9e8a7433",
-    "terminal.inactiveSelectionBackground": "#41352a",
-    "terminal.selectionBackground": "#41352a",
-    "terminalCommandDecoration.defaultBackground": "#896b56",
-    "terminalCommandDecoration.errorBackground": "#6c3b2f",
-    "terminalCommandDecoration.successBackground": "#445536",
-    "terminalCursor.background": "#352a21",
-    "terminalCursor.foreground": "#9e8a74",
-    "terminalOverviewRuler.cursorForeground": "#9e8a74",
-    "terminalOverviewRuler.findMatchForeground": "#ca5a83",
-    "terminalStickyScroll.background": "#352a21",
-    "terminalStickyScrollHover.background": "#352a21"
-  },
   // Without this line colors will be washed out
   "terminal.integrated.minimumContrastRatio": 1,
   // Use normal colors for bold text
@@ -64,10 +69,19 @@ To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemNa
 }
 ```
 
-## More information
+![Squirrelsong Light with dark terminal](https://github.com/sapegin/squirrelsong/raw/HEAD/light/VSCode/SquirrelsongLight/screenshots/screenshot-terminal.jpg)
 
-- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongLight).
-- [GitHub repository](https://github.com/sapegin/squirrelsong).
+## Try Squirrelsong for other apps
+
+[Squirrelsong is also available](https://sapegin.me/squirrelsong/) for Alfred, CotEditor, Chrome, iTerm2, JetBrains, Marta File Manager, Midnight Commander, Nimble Commander, Prism, Slack, Sublime Text, Telegram, Terminal.app, Vivaldi, Warp, WezTerm, and more…
+
+## You may also like
+
+Check out my other Visual Studio Code extensions:
+
+- [Squirrelsong Dark Theme](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongDark): low contrast non-distracting dark theme for web developers
+- [Emoji Console Log](https://marketplace.visualstudio.com/items?itemName=sapegin.emoji-console-log): insert `console.log()` statements with a random emoji
+- [Todo Tomorrow](marketplace.visualstudio.com/items?itemName=sapegin.todo-tomorrow): highlight `TODO`, `HACK`, `FIXME`, etc. comments
 
 ## Sponsoring
 

@@ -1,5 +1,8 @@
+/**
+ * Build all browser extensions into ./dist folder
+ */
+
 import fs from 'fs';
-import path from 'path';
 import ADMZip from 'adm-zip';
 
 console.log(`[BUILD] Building Chrome extension...`);

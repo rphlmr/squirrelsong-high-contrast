@@ -1,4 +1,6 @@
-// Generate Markdown palette tables from JSON files
+/**
+ * Generate Markdown palette tables in Readme files from JSON files
+ */
 
 import fs from 'fs';
 import stripJsonComments from 'strip-json-comments';

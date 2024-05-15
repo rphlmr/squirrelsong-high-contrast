@@ -45,6 +45,11 @@
         "label": "Squirrelsong Light",
         "uiTheme": "vs",
         "path": "./SquirrelsongLight.color-theme.json"
+      },
+      {
+        "label": "Squirrelsong Light (Dark Terminal)",
+        "uiTheme": "vs",
+        "path": "./SquirrelsongLightDarkTerminal.color-theme.json"
       }
     ]
   },
@@ -53,6 +58,7 @@
     "images/icon.png"
   ],
   "scripts": {
+    "prepublish": "node ../../scripts/prepare-vscode.js",
     "publish": "vsce publish"
   },
   "devDependencies": {

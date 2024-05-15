@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0
+
+- Add light theme with dark terminal
+
 ## 3.0.2
 
 One more step to create the best low-contrast, non-distracting and neurodiversity-friendly theme that is comfortable for all-day coding without sensory overstimulation, and perfect for developers with ADHD, autism or highly sensitive people (HSP). No bright colors, no super high contrast, no distractions. Soft colors but still enough legibility for different part of the code and UI.
