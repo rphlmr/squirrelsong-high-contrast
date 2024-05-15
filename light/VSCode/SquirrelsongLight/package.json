@@ -58,7 +58,7 @@
     "images/icon.png"
   ],
   "scripts": {
-    "prepublish": "node ../../scripts/prepare-vscode.js",
+    "prepublish": "cd ../../../; node scripts/prepare-vscode.js",
     "publish": "vsce publish"
   },
   "devDependencies": {
