@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.1
+
+- Revert changes to squiggles’ colors (errors, warning, etc.): they shouldn’t be so dark
+
 ## 3.1.0
 
 - Add light theme with dark terminal (`Squirrelsong Light (Dark Terminal)`)
