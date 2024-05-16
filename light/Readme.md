@@ -132,7 +132,7 @@
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=5f9b8d" width="20" height="20" alt=""> | Cyan | teal | #5f9b8d |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=adccc5" width="20" height="20" alt=""> | Cyan bright | tealLight | #adccc5 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9bae7e" width="20" height="20" alt=""> | Green | green | #9bae7e |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=d3d9c2" width="20" height="20" alt=""> | Green bright | greenLight | #d3d9c2 |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=d1dac3" width="20" height="20" alt=""> | Green bright | greenLight | #d1dac3 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ac9bc5" width="20" height="20" alt=""> | Magenta | purple | #ac9bc5 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=d7cfe3" width="20" height="20" alt=""> | Magenta bright | purpleLight | #d7cfe3 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=d67e76" width="20" height="20" alt=""> | Red | red | #d67e76 |
