@@ -2,16 +2,16 @@ name "Squirrelsong Light"
 
 base {
     appearance "light"
-    background #f5f5f7
-    separator #cbc9ce
+    background #f7f6f9
+    separator #9c96a2
     text #1d1c1c
 }
 
 actionBar {
     button {
-        background #e9e9ef
-        hotkey #727075
-        text #727075
+        background #e8e5eb
+        hotkey #78737d
+        text #78737d
     }
 }
 
@@ -22,35 +22,35 @@ asyncProgressBar {
 }
 
 breadcrumbs {
-    separator #cbc9ce
-    text #4b4a4d
-    background #ffffff
+    separator #9c96a2
+    text #4c4b4e
+    background #fdfdfe
 }
 
 files {
     background {
         alternate #fefffe
-        current #9b959d
-        currentSelected #9b959d
+        current #9c96a2
+        currentSelected #9c96a2
         selected #fae1ea
     }
 
     dragDropSelection {
-        color #727075
+        color #78737d
         width 0
     }
 
     text {
-        current #f5f5f7
+        current #f7f6f9
         currentSelected #fae1ea
-        hidden #727075
-        matched #ef6c9c
-        selected #ef6c9c
+        hidden #78737d
+        matched #e87da4
+        selected #e87da4
 
         highlighting1 #4e7997
-        highlighting2 #5a7f24
+        highlighting2 #617c3c
         highlighting3 #e6c565
-        highlighting4 #af9fc7
+        highlighting4 #ac9bc5
     }
 }
 
@@ -58,34 +58,34 @@ searchBar {
     material "light"
 
     query {
-        background #e9e9ef
-        placeholder #e9e9ef
-        text #727075
+        background #e8e5eb
+        placeholder #e8e5eb
+        text #78737d
     }
 
     results {
-        highlighting #727075
-        selection #d9d7dc
-        subtitle #727075
-        text #727075
+        highlighting #78737d
+        selection #dbd7e0
+        subtitle #78737d
+        text #78737d
     }
 
     rowSeparator {
-        color #e9e9ef
+        color #e8e5eb
         show false
     }
 }
 
 statusBar {
-    background #e9e9ef
-    text #727075
+    background #e8e5eb
+    text #78737d
     quickSelectNoResultsHighlighting #e5ada8
-    separator #cbc9ce
+    separator #9c96a2
 }
 
 tableHeader {
-    separator #cbc9ce
-    text #727075
+    separator #9c96a2
+    text #78737d
 
     pressed {
         background #e5e5e5
@@ -93,35 +93,35 @@ tableHeader {
 }
 
 tabs {
-    background #e9e9ef
+    background #e8e5eb
 
     active {
-        background #ffffff
-        text #727075
+        background #fdfdfe
+        text #78737d
     }
 
     inactive {
-        background #e9e9ef
-        text #727075
+        background #e8e5eb
+        text #78737d
     }
 }
 
 terminal {
     caret {
-        background #727075
+        background #78737d
         text #fffeff
     }
 }
 
 textEditor {
-    error #cc5c52
+    error #d67e76
     warning #e6c565
     keyword #bc5248
-    comment #9b959d
+    comment #9c96a2
     identifier #f7f0de
 
     literal {
-        string #a7b386
+        string #9bae7e
         number #4e7997
         color #bfd1de
     }

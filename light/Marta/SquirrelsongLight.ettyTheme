@@ -1,26 +1,26 @@
-background #ffffff
-cursor #727075
+background #fdfdfe
+cursor #78737d
 cursorText #fffeff
-foreground #9b959d
+foreground #9c96a2
 name "Squirrelsong Light"
 selectedText #00000000
-selection #fdf7e1
+selection #fdf6de
 
 ansiColors [
-    #4b4a4d
-    #cc5c52
-    #a7b386
+    #4c4b4e
+    #d67e76
+    #9bae7e
     #e6c565
     #80a4be
-    #af9fc7
-    #5b9a8b
-    #9b959d
-    #727075
+    #ac9bc5
+    #5f9b8d
+    #9c96a2
+    #78737d
     #e5ada8
-    #d3d9c2
+    #d1dac3
     #e9d9a8
     #bfd1de
     #d7cfe3
     #adccc5
-    #cbc9ce
+    #9c96a2
 ]
