@@ -111,7 +111,7 @@ Install [Squirrelsong.terminal](https://raw.githubusercontent.com/sapegin/squirr
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=5d99cb" width="20" height="20" alt=""> | Blue | blue | #5d99cb |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=64a1d3" width="20" height="20" alt=""> | Blue bright | blueContrast | #64a1d3 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4f9593" width="20" height="20" alt=""> | Cyan | teal | #4f9593 |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=adccc5" width="20" height="20" alt=""> | Cyan bright | tealContrast | #adccc5 |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=62b0ad" width="20" height="20" alt=""> | Cyan bright | tealContrast | #62b0ad |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=558240" width="20" height="20" alt=""> | Green | green | #558240 |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=73a15c" width="20" height="20" alt=""> | Green bright | greenContrast | #73a15c |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=7f61b3" width="20" height="20" alt=""> | Magenta | purple | #7f61b3 |
