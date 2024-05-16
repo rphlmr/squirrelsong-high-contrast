@@ -1,13 +1,13 @@
 :root {
-  --black: #727075;
-  --gray: #9b959d;
+  --black: #78737d;
+  --gray: #9c96a2;
   --blue: #80a4be;
-  --purple: #af9fc7;
-  --teal: #5b9a8b;
+  --purple: #ac9bc5;
+  --teal: #5f9b8d;
   --tealLight: #adccc5;
   --tealLighter: #d6e6e2;
-  --green: #a7b386;
-  --red: #cc5c52;
+  --green: #9bae7e;
+  --red: #d67e76;
   --redLight: #e5ada8;
   --redLighter: #f5e3e1;
   --redContrast: #bc5248;
@@ -15,17 +15,17 @@
   --yellow: #e6c565;
   --yellowLight: #e9d9a8;
   --yellowLighter: #f7f0de;
-  --yellowContrast: #ac9032;
+  --yellowContrast: #917108;
   --blueContrast: #4e7997;
-  --purpleContrast: #856caa;
-  --brightYellow: #faebaf;
-  --gray04: #4b4a4d;
-  --gray07: #727075;
-  --gray09: #9b959d;
-  --gray0c: #cbc9ce;
-  --gray0d: #d9d7dc;
-  --gray0e: #e9e9ef;
-  --gray0f: #f5f5f7;
+  --purpleContrast: #806aa4;
+  --brightYellow: #f5da70;
+  --gray04: #4c4b4e;
+  --gray07: #78737d;
+  --gray09: #9c96a2;
+  --gray0c: #9c96a2;
+  --gray0d: #dbd7e0;
+  --gray0e: #e8e5eb;
+  --gray0f: #f7f6f9;
 }
 
 .platform-mac,
