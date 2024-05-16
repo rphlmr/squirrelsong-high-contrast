@@ -1,133 +1,133 @@
 // Description: Squirrelsong Light Theme
-// Version: v2.0.0
+// Version: v3.0.0
 // Repository: https://github.com/sapegin/squirrelsong
 
-name: Squirrelsong Light
-shortname: squirrelsonglight
-isDark: 0
-tinted: 0
-//Fallback for parameters which didn't define. Available values=day, dayClassic, dark, nightAccent
-parent: day
-copyright: Telegram
-basicAccent: #4B4A4D
-background: #FFFFFF
-text: #4B4A4D
-grayText: #9B959D
-link: #4E7997
-accent: #80a4be
-redUI: #CC5C52
-greenUI: #A7B386
-blackTransparent: #4B4A4D99
-grayTransparent: #F5F5F799
-grayUI: #F5F5F7
-darkGrayText: #4B4A4D
-accentSelect: #80a4be
-selectText: #FDF7E1
-border: #E9E9EF
-grayBackground: #F5F5F7
-grayForeground: #E9E9EF
-grayIcon: #9E9E9E
-accentIcon: #80a4be
-badgeMuted: #D9D7DC
-badge: #80a4be
-indicatorColor: #464A57
-selectMessage: #E9E9EF
-monospacedPre: #4B4A4D
-monospacedCode: #727075
-monospacedPreBubble_incoming: #CBC9CE
-monospacedPreBubble_outgoing: #FFFFFF
-monospacedCodeBubble_incoming: #CBC9CE
-monospacedCodeBubble_outgoing: #FFFFFF
-selectTextBubble_incoming: #DFE8EF
-selectTextBubble_outgoing: #BFD1DE
-bubbleBackground_incoming: #F5F5F7
-bubbleBorder_incoming: #E9E9EF
-bubbleBorder_outgoing: #80A4BEB3
-grayTextBubble_incoming: #9B959D
-grayTextBubble_outgoing: #FFFFFF
-grayIconBubble_incoming: #9B959D
-grayIconBubble_outgoing: #FFFFFF
-accentIconBubble_incoming: #9B959D
-accentIconBubble_outgoing: #FFFFFF
-linkBubble_incoming: #4E7997
-linkBubble_outgoing: #FFFFFF
-textBubble_incoming: #4B4A4D
-textBubble_outgoing: #FFFFFF
-selectMessageBubble: #E9E9EF99
-fileActivityBackground: #80A4BE
-fileActivityForeground: #FFFFFF
-fileActivityBackgroundBubble_incoming: #80A4BE
-fileActivityBackgroundBubble_outgoing: #FFFFFF
-fileActivityForegroundBubble_incoming: #FFFFFF
-fileActivityForegroundBubble_outgoing: #80A4BE
-waveformBackground: #9E9E9EB3
-waveformForeground: #80A4BE
-waveformBackgroundBubble_incoming: #80A4BE99
-waveformBackgroundBubble_outgoing: #FFFFFF99
-waveformForegroundBubble_incoming: #80A4BE
-waveformForegroundBubble_outgoing: #FFFFFF99
-webPreviewActivity: #80A4BE
-webPreviewActivityBubble_incoming: #BFD1DE
-webPreviewActivityBubble_outgoing: #FFFFFF
-redBubble_incoming: #E5ADA8
-redBubble_outgoing: #E5ADA8
-greenBubble_incoming: #D3D9C2
-greenBubble_outgoing: #D3D9C2
-chatReplyTitle: #80A4BE
-chatReplyTextEnabled: #4B4A4D
-chatReplyTextDisabled: #9B959D
-chatReplyTitleBubble_incoming: #80A4BE
-chatReplyTitleBubble_outgoing: #FFFFFF
-chatReplyTextEnabledBubble_incoming: #4B4A4D
-chatReplyTextEnabledBubble_outgoing: #FFFFFF
-chatReplyTextDisabledBubble_incoming: #9B959D
-chatReplyTextDisabledBubble_outgoing: #FFFFFF
-groupPeerNameRed: #CC5C52
-groupPeerNameOrange: #9F6221
-groupPeerNameViolet: #856CAA
-groupPeerNameGreen: #5A7F24
-groupPeerNameCyan: #3F7D6C
-groupPeerNameLightBlue: #BFD1DE
-groupPeerNameBlue: #80A4BE
-peerAvatarRedTop: #F3DCDA
-peerAvatarRedBottom: #CC5C52
-peerAvatarOrangeTop: #F7E7D5
-peerAvatarOrangeBottom: #DE9E59
-peerAvatarVioletTop: #EBE7F1
-peerAvatarVioletBottom: #AF9FC7
-peerAvatarGreenTop: #E9ECE1
-peerAvatarGreenBottom: #A7B386
-peerAvatarCyanTop: #D6E6E2
-peerAvatarCyanBottom: #5B9A8B
-peerAvatarBlueTop: #DFE8EF
-peerAvatarBlueBottom: #80A4BE
-peerAvatarPinkTop: #FAE1EA
-peerAvatarPinkBottom: #EF6C9C
-bubbleBackgroundHighlight_incoming: #E9E9EF
-bubbleBackgroundHighlight_outgoing: #80A4BE
-chatDateActive: #FFFFFF
-chatDateText: #9b959d
-revealAction_neutral1_background: #80A4BE
-revealAction_neutral1_foreground: #FFFFFF
-revealAction_neutral2_background: #DE9E59
-revealAction_neutral2_foreground: #FFFFFF
-revealAction_destructive_background: #CC5C52
-revealAction_destructive_foreground: #FFFFFF
-revealAction_constructive_background: #A7B386
-revealAction_constructive_foreground: #FFFFFF
-revealAction_accent_background: #80A4BE
-revealAction_accent_foreground: #FFFFFF
-revealAction_warning_background: #DE9E59
-revealAction_warning_foreground: #FFFFFF
-revealAction_inactive_background: #CBC9CE
-revealAction_inactive_foreground: #FFFFFF
+name = Squirrelsong Light
+shortname = squirrelsonglight
+isDark = 0
+tinted = 0
+//Fallback for parameters which didn't define. Available values: day, dayClassic, dark, nightAccent
+parent = day
+copyright = Telegram
+basicAccent = #4c4b4e
+background = #fdfdfe
+text = #4c4b4e
+grayText = #9c96a2
+link = #4e7997
+accent = #80a4be
+redUI = #d67e76
+greenUI = #9bae7e
+blackTransparent = #4c4b4e:0.60
+grayTransparent = #f7f6f9:0.60
+grayUI = #f7f6f9
+darkGrayText = #4c4b4e
+accentSelect = #80a4be
+selectText = #fdf6de
+border = #e8e5eb
+grayBackground = #f7f6f9
+grayForeground = #e8e5eb
+grayIcon = #9e9e9e
+accentIcon = #80a4be
+badgeMuted = #dbd7e0
+badge = #80a4be
+indicatorColor = #464a57
+selectMessage = #e8e5eb
+monospacedPre = #4c4b4e
+monospacedCode = #78737d
+monospacedPreBubble_incoming = #9c96a2
+monospacedPreBubble_outgoing = #fdfdfe
+monospacedCodeBubble_incoming = #9c96a2
+monospacedCodeBubble_outgoing = #fdfdfe
+selectTextBubble_incoming = #dfe8ef
+selectTextBubble_outgoing = #bfd1de
+bubbleBackground_incoming = #f7f6f9
+bubbleBorder_incoming = #e8e5eb
+bubbleBorder_outgoing = #80a4be:0.70
+grayTextBubble_incoming = #9c96a2
+grayTextBubble_outgoing = #fdfdfe
+grayIconBubble_incoming = #9c96a2
+grayIconBubble_outgoing = #fdfdfe
+accentIconBubble_incoming = #9c96a2
+accentIconBubble_outgoing = #fdfdfe
+linkBubble_incoming = #4e7997
+linkBubble_outgoing = #fdfdfe
+textBubble_incoming = #4c4b4e
+textBubble_outgoing = #fdfdfe
+selectMessageBubble = #e8e5eb:0.60
+fileActivityBackground = #80a4be
+fileActivityForeground = #fdfdfe
+fileActivityBackgroundBubble_incoming = #80a4be
+fileActivityBackgroundBubble_outgoing = #fdfdfe
+fileActivityForegroundBubble_incoming = #fdfdfe
+fileActivityForegroundBubble_outgoing = #80a4be
+waveformBackground = #9e9e9e:0.70
+waveformForeground = #80a4be
+waveformBackgroundBubble_incoming = #80a4be:0.60
+waveformBackgroundBubble_outgoing = #fdfdfe:0.60
+waveformForegroundBubble_incoming = #80a4be
+waveformForegroundBubble_outgoing = #fdfdfe:0.60
+webPreviewActivity = #80a4be
+webPreviewActivityBubble_incoming = #bfd1de
+webPreviewActivityBubble_outgoing = #fdfdfe
+redBubble_incoming = #e5ada8
+redBubble_outgoing = #e5ada8
+greenBubble_incoming = #d1dac3
+greenBubble_outgoing = #d1dac3
+chatReplyTitle = #80a4be
+chatReplyTextEnabled = #4c4b4e
+chatReplyTextDisabled = #9c96a2
+chatReplyTitleBubble_incoming = #80a4be
+chatReplyTitleBubble_outgoing = #fdfdfe
+chatReplyTextEnabledBubble_incoming = #4c4b4e
+chatReplyTextEnabledBubble_outgoing = #fdfdfe
+chatReplyTextDisabledBubble_incoming = #9c96a2
+chatReplyTextDisabledBubble_outgoing = #fdfdfe
+groupPeerNameRed = #d67e76
+groupPeerNameOrange = #aa6318
+groupPeerNameViolet = #806aa4
+groupPeerNameGreen = #617c3c
+groupPeerNameCyan = #3f7d6f
+groupPeerNameLightBlue = #bfd1de
+groupPeerNameBlue = #80a4be
+peerAvatarRedTop = #f3dcda
+peerAvatarRedBottom = #d67e76
+peerAvatarOrangeTop = #f7e7d5
+peerAvatarOrangeBottom = #de9e59
+peerAvatarVioletTop = #ebe7f1
+peerAvatarVioletBottom = #ac9bc5
+peerAvatarGreenTop = #e7ebe0
+peerAvatarGreenBottom = #9bae7e
+peerAvatarCyanTop = #d6e6e2
+peerAvatarCyanBottom = #5f9b8d
+peerAvatarBlueTop = #dfe8ef
+peerAvatarBlueBottom = #80a4be
+peerAvatarPinkTop = #fae1ea
+peerAvatarPinkBottom = #e87da4
+bubbleBackgroundHighlight_incoming = #e8e5eb
+bubbleBackgroundHighlight_outgoing = #80a4be
+chatDateActive = #fdfdfe
+chatDateText = #9c96a2
+revealAction_neutral1_background = #80a4be
+revealAction_neutral1_foreground = #fdfdfe
+revealAction_neutral2_background = #de9e59
+revealAction_neutral2_foreground = #fdfdfe
+revealAction_destructive_background = #d67e76
+revealAction_destructive_foreground = #fdfdfe
+revealAction_constructive_background = #9bae7e
+revealAction_constructive_foreground = #fdfdfe
+revealAction_accent_background = #80a4be
+revealAction_accent_foreground = #fdfdfe
+revealAction_warning_background = #de9e59
+revealAction_warning_foreground = #fdfdfe
+revealAction_inactive_background = #9c96a2
+revealAction_inactive_foreground = #fdfdfe
 //Parameter is usually using for minimalistic chat mode, but also works as fallback for bubbles if wallpaper not installed
-chatBackground: #FFFFFF
-listBackground: #E9E9EF
-listGrayText: #727075
-grayHighlight: #F5F5F7
-focusAnimationColor: #80A4BE
-vibrant: #9B959D1A
-premium: #856CAA
-//Parameter only affects bubble chat mode. Available values=none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
-wallpaper: none
+chatBackground = #fdfdfe
+listBackground = #e8e5eb
+listGrayText = #78737d
+grayHighlight = #f7f6f9
+focusAnimationColor = #80a4be
+vibrant = #9c96a2:0.10
+premium = #806aa4
+//Parameter only affects bubble chat mode. Available values: none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%
+wallpaper = none
