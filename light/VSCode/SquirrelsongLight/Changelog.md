@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.2
+
+- Fix dark terminal theme colors
+
 ## 3.1.1
 
 - Revert changes to squiggles’ colors (errors, warning, etc.): they shouldn’t be so dark
