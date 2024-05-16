@@ -24,6 +24,10 @@ const EXCEPTIONS_LIGHT = [
   // Transparent colors
   '#ffffff00',
   '#ffffffff',
+  // Slack system navigation: existing colors look too intense (this color isn't
+  // used as is by Slack but is "adjusted" and other colors are made based on
+  // this color)
+  '#c3ccd6',
 ];
 // Extended palette (only for JetBrains)
 const EXTENDED_LIGHT = [
