@@ -482,7 +482,9 @@
         "markup.underline.link.markdown",
         "markup.underline.link.image.markdown",
         "constant.other.reference.link.markdown",
-        "markup.inline.raw.string.markdown"
+        "markup.inline.raw.string.markdown",
+        "punctuation.definition.table.markdown",
+        "punctuation.separator.table.markdown"
       ],
       "settings": {
         "foreground": "#9c96a2",
