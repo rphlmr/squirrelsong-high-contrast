@@ -24,7 +24,7 @@
     "separator color": "$base.background tertiary color",
     "search background color": "$base.search secondary color",
     "attachment background color": "$base.background secondary color",
-    "encrypted token color": "$base.background tertiary color",
+    "encrypted token color": "$base.background secondary color",
     "selection background color": "$base.background hover color",
     "ribbon color": "$base.icon color",
     "toolbar": {
