@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.3
+
+- Make diff inserted/removed indicators on the scrollbar more noticeable
+
 ## 3.1.2
 
 - Fix dark terminal theme colors
