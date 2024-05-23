@@ -479,10 +479,15 @@
         // Diff
         "meta.diff.range.unified",
         // Markdown
-        "markup.underline.link.markdown",
-        "markup.underline.link.image.markdown",
         "constant.other.reference.link.markdown",
+        "fenced_code.block.language.markdown",
         "markup.inline.raw.string.markdown",
+        "markup.underline.link.image.markdown",
+        "markup.underline.link.markdown",
+        "punctuation.definition.link.title.begin.markdown",
+        "punctuation.definition.link.title.end.markdown",
+        "punctuation.definition.markdown",
+        "punctuation.definition.metadata.markdown",
         "punctuation.definition.table.markdown",
         "punctuation.separator.table.markdown"
       ],
