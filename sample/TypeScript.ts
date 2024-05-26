@@ -21,6 +21,12 @@ const Li = styled.li<{ isOvernight: boolean }>`
 const someString = 'There was a squirrel named Squeaky';
 const someTemplateLiteral = `There was a squirrel named ${name}`;
 
+const someObject = {
+  hello,
+  varUrl,
+  adios: 42,
+};
+
 // From https://vscodethemes.com/
 const btn = document.getElementById('btn');
 let count = 0;

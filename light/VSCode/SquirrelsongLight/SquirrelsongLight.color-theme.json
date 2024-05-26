@@ -113,6 +113,8 @@
     "editorIndentGuide.activeBackground1": "#dbd7e0",
     "editorIndentGuide.background1": "#f7f6f9",
     "editorInfo.foreground": "#9c96a2",
+    "editorInlayHint.foreground": "#6b676f",
+    "editorInlayHint.background": "#dbd7e0",
     "editorLightBulb.foreground": "#e6c565",
     "editorLightBulbAi.foreground": "#e6c565",
     "editorLightBulbAutoFix.foreground": "#e6c565",
