@@ -11,7 +11,7 @@
 | death date | 1476             |
 | weaknesses | Sunlight, Garlic |
 
-<!-- ...There was a guy named Vlad -->
+<!-- ...There was a squirrel named Squeaky -->
 
 > The **age** is the `deathDate` minus the `birthDate`
 
@@ -59,10 +59,6 @@ Mixed:
    - Fie
    - Foe
 3. Third
-
-Definition list:
-
-Some term : First definition : Second definition
 
 ---
 

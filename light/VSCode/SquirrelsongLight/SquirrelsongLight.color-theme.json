@@ -359,8 +359,10 @@
         // Markdown
         "entity.name.section.markdown",
         "meta.separator.markdown",
-        "markup.bold.markdown",
-        "markup.heading.setext.2.markdown",
+        "markup.heading",
+        "markup.heading.markdown",
+        "markup.heading.setext.1",
+        "markup.heading.setext.2",
         // Rust
         "meta.attribute.rust",
         // Shell
@@ -374,22 +376,30 @@
     {
       "scope": [
         // Markdown
-        "markup.italic.markdown",
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        // Markdown
+        "markup.italic",
         // Shell
         "string.unquoted.heredoc.no-indent"
       ],
       "settings": {
-        "foreground": "#78737d",
         "fontStyle": "italic"
       }
     },
     {
       "scope": [
         // Markdown
-        "markup.strikethrough.markdown"
+        "markup.strikethrough"
       ],
       "settings": {
-        "foreground": "#78737d",
+        "foreground": "#9c96a2",
         "fontStyle": "strikethrough"
       }
     },
@@ -481,13 +491,22 @@
         // Markdown
         "constant.other.reference.link.markdown",
         "fenced_code.block.language.markdown",
-        "markup.inline.raw.string.markdown",
-        "markup.underline.link.image.markdown",
-        "markup.underline.link.markdown",
+        "markup.inline.raw.string",
+        "markup.underline.link.image",
+        "markup.underline.link",
+        "meta.link.reference.def.markdown",
+        "meta.link.reference.markdown",
+        "punctuation.definition.link.description.begin.markdown",
+        "punctuation.definition.link.description.end.markdown",
+        "punctuation.definition.link.markdown",
         "punctuation.definition.link.title.begin.markdown",
         "punctuation.definition.link.title.end.markdown",
+        "punctuation.definition.list.begin.markdown",
         "punctuation.definition.markdown",
         "punctuation.definition.metadata.markdown",
+        "punctuation.definition.quote.begin.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
         "punctuation.definition.table.markdown",
         "punctuation.separator.table.markdown"
       ],
@@ -724,7 +743,6 @@
         "string",
         "constant.other.symbol",
         "entity.other.inherited-class",
-        "markup.heading",
         // Clojure
         "constant.keyword.clojure",
         // CSS

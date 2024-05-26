@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.1.5
+
+- Improve Markdown styles a bit.
+
+## 3.1.4
+
+- Make links markup in Markdown lighter
+
 ## 3.1.3
 
 - Make diff inserted/removed indicators on the scrollbar more noticeable
@@ -23,16 +31,16 @@
 
 One more step to create the best low-contrast, non-distracting and neurodiversity-friendly theme that is comfortable for all-day coding without sensory overstimulation, and perfect for developers with ADHD, autism or highly sensitive people (HSP). No bright colors, no super high contrast, no distractions. Soft colors but still enough legibility for different part of the code and UI.
 
-* New grayscale palette
-    * All colors have the same hue with a subtle blueish tint, saturation is slightly higher for light colors
-    * Colors look more cohesive without jumps in hue, saturation and lightness
-    * Add missing shades
-* Slightly adjusted color palette
-    * All shades of the same color have the same hue
-    * Adjust some contrast and base colors to have more similar lightness and saturation
-* Overall, colors are more cohesive
-* Better readability and visual hierarchy in the UI, and at the same time fewer distractions
-* Add loooooots of missing colors to the Visual Studio theme
+- New grayscale palette
+  - All colors have the same hue with a subtle blueish tint, saturation is slightly higher for light colors
+  - Colors look more cohesive without jumps in hue, saturation and lightness
+  - Add missing shades
+- Slightly adjusted color palette
+  - All shades of the same color have the same hue
+  - Adjust some contrast and base colors to have more similar lightness and saturation
+- Overall, colors are more cohesive
+- Better readability and visual hierarchy in the UI, and at the same time fewer distractions
+- Add loooooots of missing colors to the Visual Studio theme
 
 [See screenshots](https://github.com/sapegin/squirrelsong/pull/12)
 
