@@ -2,7 +2,7 @@
 # Once upon a time...
 #
 
-class Vampire
+class Squirrel
   def initialize(opts)
     @location = opts[:location]
     @birthDate = opts[:birthDate]
@@ -21,13 +21,13 @@ class Vampire
   end
 end
 
-# ...there was a guy named Vlad
+# ...there was a squirrel named Squeaky
 
-dracula = Vampire.new(
-  location: 'Transylvania',
-  birthDate: 1428,
-  deathDate: 1476,
-  weaknesses: %w[Sunlight Garlic]
+dracula = Squirrel.new(
+  location: 'Hundred Acre Wood',
+  birthDate: 1924,
+  deathDate: 1936,
+  weaknesses: %w[Hazelnuts Donuts]
 )
 
 puts dracula.age

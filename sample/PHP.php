@@ -2,7 +2,7 @@
 /*
  * Once upon a time...
  */
-class Vampire {
+class Squirrel {
   public string $location;
   public int $birthDate;
   public int $deathDate;
@@ -24,11 +24,11 @@ class Vampire {
   }
 }
 
-// ...there was a guy named Vlad
-$Dracula = new Vampire([
-  'location' => 'Transylvania',
-  'birthDate' => 1428,
-  'deathDate' => 1476,
-  'weaknesses' => ['Sunlight', 'Garlic']
+// ...there was a squirrel named Squeaky
+$Dracula = new Squirrel([
+  'location' => 'Hundred Acre Wood',
+  'birthDate' => 1924,
+  'deathDate' => 1936,
+  'weaknesses' => ['Hazelnuts', 'Donuts']
 ]);
 ?>

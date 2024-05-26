@@ -2,14 +2,14 @@
 * Once upon a time...
 */
 
-public class Vampire
+public class Squirrel
 {
   public string Location { get; private set; }
   public int BirthDate { get; private set; }
   public int DeathDate { get; private set; }
   public string[] Weaknesses { get; private set; }
 
-  public Vampire(string location, int birthDate, int deathDate, string[] weaknesses)
+  public Squirrel(string location, int birthDate, int deathDate, string[] weaknesses)
   {
     Location = location;
     BirthDate = birthDate;
@@ -31,13 +31,13 @@ class Program
 {
   static void Main(string[] args)
   {
-    // ...there was a guy named Vlad
+    // ...there was a squirrel named Squeaky
 
-    var vampire = new Vampire(
-      "Transylvania",
-      1428,
-      1476,
-      new string[] { "Sunlight", "Garlic" }
+    var squirrel = new Squirrel(
+      "Hundred Acre Wood",
+      1924,
+      1936,
+      new string[] { "Hazelnuts", "Donuts" }
     );
   }
 }

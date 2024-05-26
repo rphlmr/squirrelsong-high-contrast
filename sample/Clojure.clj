@@ -8,6 +8,6 @@
 (defn age
   [vamp] (- (vamp :death-date) (vamp :birth-date)))
 
-;;...there was a guy named Vlad
-(let [d (struct dracula "Transylvania" 1428 1476 '("Sunlight", "Garlic"))]
+;;...there was a squirrel named Squeaky
+(let [d (struct dracula "Hundred Acre Wood" 1924 1936 '("Hazelnuts", "Donuts"))]
   (println (age d)))

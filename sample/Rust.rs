@@ -1,21 +1,21 @@
  // Once upon a time...
 
 #[derive(Debug)]
-pub struct Vampire {
+pub struct Squirrel {
 	location: String,
 	birth_date: u16,
 	death_date: u16,
 	weaknesses: Vec<String>,
 }
 
-impl Vampire {
+impl Squirrel {
 	pub fn new(
 		location: String,
 		birth_date: u16,
 		death_date: u16,
 		weaknesses: Vec<String>,
 	) -> Self {
-		Vampire {
+		Squirrel {
 			location,
 			birth_date,
 			death_date,
@@ -32,14 +32,14 @@ impl Vampire {
 	}
 }
 
-// ...there was a guy named Vlad
+// ...there was a squirrel named Squeaky
 
 fn main() {
-	let dracula = Vampire::new(
-		"Transylvania".to_string(),
-		1428,
-		1476,
-		vec!["Sunlight".to_string(), "Garlic".to_string()],
+	let dracula = Squirrel::new(
+		"Hundred Acre Wood".to_string(),
+		1924,
+		1936,
+		vec!["Hazelnuts".to_string(), "Donuts".to_string()],
 	);
 
 	println!("{:?}", dracula);

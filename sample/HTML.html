@@ -6,24 +6,27 @@
   </head>
   <body>
     <!-- Once upon a time... -->
-    <h1>Vampires &amp; raccoons</h1>
+    <h1>Squirrels &amp; raccoons</h1>
 
     <form>
       <label for="location">Location</label>
-      <input type="text" name="location" value="Transylvania" />
+      <input type="text" name="location" value="Hundred Acre Wood" />
       <label for="birthDate">Birth Date:</label>
-      <input type="number" name="birthDate" value="1428" />
+      <input type="number" name="birthDate" value="1924" />
       <label for="deathDate">Death Date:</label>
-      <input type="number" name="deathDate" value="1476" />
+      <input type="number" name="deathDate" value="1936" />
       <label for="weaknesses">Weaknesses:</label>
-      <input type="checkbox" name="weaknesses" value="Sunlight" checked />
-      <input type="checkbox" name="weaknesses" value="Garlic" checked />
+      <input type="checkbox" name="weaknesses" value="Hazelnuts" checked />
+      <input type="checkbox" name="weaknesses" value="Donuts" checked />
 
       <button type="submit">Submit</button>
     </form>
 
+    <center>This is a deprecated tag</center>
+    <p align="center">And this has a deprecated property</p>
+
     <script>
-      // ...there was a guy named Vlad
+      // ...there was a squirrel named Squeaky
       const form = document.querySelector('form');
       form.addEventListener('submit', (e) => {
         const { birthDate, deathDate } = e.target;

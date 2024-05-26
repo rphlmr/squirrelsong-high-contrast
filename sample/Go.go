@@ -5,29 +5,29 @@ import "fmt"
 /*
   Once upon a time...
 */
-type Vampire struct {
+type Squirrel struct {
   Location   string
   BirthDate  int
   DeathDate  int
   Weaknesses []string
 }
 
-func (v *Vampire) Age() int {
+func (v *Squirrel) Age() int {
   return v.calcAge()
 }
 
-func (v *Vampire) calcAge() int {
+func (v *Squirrel) calcAge() int {
   return v.DeathDate - v.BirthDate
 }
 
-// ...there was a guy named Vlad
+// ...there was a squirrel named Squeaky
 
 func main() {
-  dracula := &Vampire{
-    Location:   "Transylvania",
-    BirthDate:  1428,
-    DeathDate:  1476,
-    Weaknesses: []string{"Sunlight", "Garlic"},
+  dracula := &Squirrel{
+    Location:   "Hundred Acre Wood",
+    BirthDate:  1924,
+    DeathDate:  1936,
+    Weaknesses: []string{"Hazelnuts", "Donuts"},
   }
 
   fmt.Println(dracula.Age())

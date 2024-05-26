@@ -1,26 +1,26 @@
 #include <stdlib.h>
 
-struct Vampire {
+struct Squirrel {
   char *location;
   int birthday;
   int deathdate;
   char *weaknesses[2];
 };
 
-int _calcAge(struct Vampire *v) { return v->deathdate - v->birthday; }
+int _calcAge(struct Squirrel *v) { return v->deathdate - v->birthday; }
 
-int get_age(struct Vampire *v) { return _calcAge(v); }
+int get_age(struct Squirrel *v) { return _calcAge(v); }
 
 int main() {
-  struct Vampire v;
+  struct Squirrel v;
 
-  /* There was a guy named Vlad */
+  /* There was a squirrel named Squeaky */
   v.location = malloc(12 * sizeof(char));
-  v.location = "Transylvania";
-  v.birthday = 1428;
-  v.deathdate = 1476;
-  v.weaknesses[0] = "Sunlight";
-  v.weaknesses[1] = "Garlic";
+  v.location = "Hundred Acre Wood";
+  v.birthday = 1924;
+  v.deathdate = 1936;
+  v.weaknesses[0] = "Hazelnuts";
+  v.weaknesses[1] = "Donuts";
 
   get_age(&v);
 

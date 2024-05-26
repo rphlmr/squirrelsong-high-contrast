@@ -1,4 +1,4 @@
-# Vampires
+# Squirrels
 
 <!--
   Once a upon a time...
@@ -6,10 +6,10 @@
 
 | Name       | Value            |
 | ---------- | ---------------- |
-| location   | Transylvania     |
-| birth date | 1428             |
-| death date | 1476             |
-| weaknesses | Sunlight, Garlic |
+| location   | Hundred Acre Wood     |
+| birth date | 1924             |
+| death date | 1936             |
+| weaknesses | Hazelnuts, Donuts |
 
 <!-- ...There was a squirrel named Squeaky -->
 

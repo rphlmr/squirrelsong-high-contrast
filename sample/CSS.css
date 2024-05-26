@@ -3,21 +3,21 @@
  */
 
 :root {
-  --birthDate: 1428px;
-  --deathDate: 1476px;
+  --birthDate: 1924px;
+  --deathDate: 1936px;
 }
 
 body {
   background: #000;
 }
 
-/* ...there was a guy named Vlad */
+/* ...there was a squirrel named Squeaky */
 
 #dracula {
   opacity: 0;
   display: none;
   visibility: hidden;
-  font-family: 'Transylvania';
+  font-family: 'Hundred Acre Wood';
   height: calc(var(--deathDate) - var(--birthDate));
 }
 
@@ -40,8 +40,8 @@ input [type='radio'] {
 }
 
 @font-face {
-  font-family: 'Transylvania';
-  src: url('/location/Transylvania.woff2') format('woff2');
+  font-family: 'Hundred Acre Wood';
+  src: url('/location/Hundred Acre Wood.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }

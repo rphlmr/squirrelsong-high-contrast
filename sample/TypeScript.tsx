@@ -26,8 +26,36 @@ const someTemplateLiteral = `There was a squirrel named ${name}`;
 const someObject = {
   hello,
   varUrl,
-  adios: 42,
+  adios: '42',
 };
+
+class Squirrel {
+  private name: string;
+  private obj: Record<string, string> = {
+    hello,
+    varUrl,
+    adios: '42',
+  };
+
+  public constructor(name: string, obj: Record<string, string> = {}) {
+    this.name = name;
+    this.obj = obj;
+  }
+
+  public greet() {
+    console.log(`Hola, ${this.name}`);
+  }
+
+  public get adios() {
+    return this.obj.adios;
+  }
+  public set adios(value: string) {
+    this.obj.adios = value;
+  }
+}
+
+// Greet the squirrel!
+const sqrl = new Squirrel('Squeaky');
 
 // From https://vscodethemes.com/
 const btn = document.getElementById('btn');

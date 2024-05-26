@@ -2,12 +2,12 @@
  * Once upon a time...
  */
 
-class Vampire {
+class Squirrel {
   String location;
   int birthDate, deathDate;
   List<String> weaknesses;
 
-  Vampire({this.location, this.birthDate, this.deathDate, this.weaknesses});
+  Squirrel({this.location, this.birthDate, this.deathDate, this.weaknesses});
 
   int get age => this.calcAge();
 
@@ -15,10 +15,10 @@ class Vampire {
 }
 
 void main() {
-  // ...there was a guy named Vlad
-  final Dracula = Vampire(
-      location: 'Transylvania',
-      birthDate: 1428,
-      deathDate: 1476,
-      weaknesses: ['Sunlight', 'Garlic']);
+  // ...there was a squirrel named Squeaky
+  final Dracula = Squirrel(
+      location: 'Hundred Acre Wood',
+      birthDate: 1924,
+      deathDate: 1936,
+      weaknesses: ['Hazelnuts', 'Donuts']);
 }

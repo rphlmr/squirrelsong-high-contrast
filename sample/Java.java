@@ -1,10 +1,10 @@
-class Vampire {
+class Squirrel {
   private String location;
   private int birthDate;
   private int deathDate;
   private String[] weaknesses;
 
-  public Vampire(String location, int birthDate, int deathDate, String[] weaknesses) {
+  public Squirrel(String location, int birthDate, int deathDate, String[] weaknesses) {
     this.location = location;
     this.birthDate = birthDate;
     this.deathDate = deathDate;
@@ -20,11 +20,11 @@ class Vampire {
   }
 }
 
-// ...there was a guy named Vlad
+// ...there was a squirrel named Squeaky
 public class dracula {
-  Vampire vampire = new Vampire(
-      "Transylvania",
-      1428,
-      1476,
-      new String[] { "Sunlight", "Garlic" });
+  Squirrel squirrel = new Squirrel(
+      "Hundred Acre Wood",
+      1924,
+      1936,
+      new String[] { "Hazelnuts", "Donuts" });
 }

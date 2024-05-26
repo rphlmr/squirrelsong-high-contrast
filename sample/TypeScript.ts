@@ -49,20 +49,20 @@ btn?.addEventListener('click', () => {
  * Once upon a time...
  */
 
-interface VampireProps {
+interface SquirrelProps {
   location: string;
   birthDate: number;
   deathDate: number;
   weaknesses: string[];
 }
 
-class Vampire {
+class Squirrel {
   location: string;
   birthDate: number;
   deathDate: number;
   weaknesses: string[];
 
-  constructor(props: VampireProps) {
+  constructor(props: SquirrelProps) {
     this.location = props.location;
     this.birthDate = props.birthDate;
     this.deathDate = props.deathDate;
@@ -78,11 +78,11 @@ class Vampire {
   }
 }
 
-// ...there was a guy named Vlad
+// ...there was a squirrel named Squeaky
 
-const Dracula: VampireProps = new Vampire({
-  location: 'Transylvania',
-  birthDate: 1428,
-  deathDate: 1476,
-  weaknesses: ['Sunlight', 'Garlic'],
+const Dracula: SquirrelProps = new Squirrel({
+  location: 'Hundred Acre Wood',
+  birthDate: 1924,
+  deathDate: 1936,
+  weaknesses: ['Hazelnuts', 'Donuts'],
 });

@@ -5,9 +5,9 @@
  * Once upon a time...
  */
 
-class Vampire {
+class Squirrel {
  public:
-  Vampire(std::string location, int birth_date, int death_date,
+  Squirrel(std::string location, int birth_date, int death_date,
           std::vector<std::string> weaknesses)
       : _location{location},
         _birth_date{birth_date},
@@ -25,14 +25,14 @@ class Vampire {
   int calc_age() { return _death_date - _birth_date; }
 };
 
-// ...there was a guy named Vlad
+// ...there was a squirrel named Squeaky
 
 int main() {
-  std::string location = "Transylvania";
-  int birth_date = 1428, death_date = 1476;
-  std::vector<std::string> weaknesses { "Sunlight", "Garlic" };
+  std::string location = "Hundred Acre Wood";
+  int birth_date = 1924, death_date = 1936;
+  std::vector<std::string> weaknesses { "Hazelnuts", "Donuts" };
 
-  Vampire dracula{location, birth_date, death_date, weaknesses};
+  Squirrel dracula{location, birth_date, death_date, weaknesses};
 
   return 0;
 }
