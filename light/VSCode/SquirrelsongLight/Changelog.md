@@ -3,6 +3,7 @@
 ## 3.1.5
 
 - Improve Markdown styles a bit.
+- Fix indent guides.
 
 ## 3.1.4
 
