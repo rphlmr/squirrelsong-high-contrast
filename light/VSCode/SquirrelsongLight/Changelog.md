@@ -4,6 +4,7 @@
 
 - Improve Markdown styles a bit.
 - Fix indent guides.
+- Add minimap colors.
 
 ## 3.1.4
 

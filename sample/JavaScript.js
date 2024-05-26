@@ -19,6 +19,9 @@ const Li = styled.li`
   }
 `;
 
+const someString = 'There was a squirrel named Squeaky';
+const someTemplateLiteral = `There was a squirrel named ${name}`;
+
 // From https://vscodethemes.com/
 const btn = document.getElementById('btn');
 let count = 0;
