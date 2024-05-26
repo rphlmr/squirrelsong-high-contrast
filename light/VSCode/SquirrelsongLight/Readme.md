@@ -1,5 +1,7 @@
 # Squirrelsong Light Theme 🐿️
 
+[![Preview in vscode.dev](https://img.shields.io/badge/Preview%20in-vscode.dev-brightgreen)](https://vscode.dev/editor/theme/sapegin.Theme-SquirrelsongLight)
+
 A low-contrast, non-distracting and neurodiverse-friendly theme that is comfortable for all-day coding without sensory overstimulation, and perfect for developers with ADHD, autism, or highly sensitive people (HSP). No bright colors, no super-high contrast, no distractions. Soft colors but still enough legibility for different part of the code and UI.
 
 [Install on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongLight)
@@ -28,23 +30,23 @@ Here are my settings related to theming and typography:
 ```json5
 {
   // This is all that matters
-  "workbench.colorTheme": "Squirrelsong Light",
+  'workbench.colorTheme': 'Squirrelsong Light',
   // Monolisa (https://www.monolisa.dev) is a paid font but I love it,
   // Hack and JetBrains Mono are good free alternatives
-  "editor.fontFamily": "MonoLisa",
+  'editor.fontFamily': 'MonoLisa',
   // Enable contextual alternative but disable ligatures
-  "editor.fontLigatures": "'calt' on, 'liga' off",
-  "editor.fontSize": 17,
-  "editor.lineHeight": 1.6,
-  "editor.cursorBlinking": "solid",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 2,
-  "editor.semanticHighlighting.enabled": true,
-  "window.zoomLevel": 0.15,
-  "workbench.fontAliasing": "auto",
+  'editor.fontLigatures': "'calt' on, 'liga' off",
+  'editor.fontSize': 17,
+  'editor.lineHeight': 1.6,
+  'editor.cursorBlinking': 'solid',
+  'editor.cursorStyle': 'line',
+  'editor.cursorWidth': 2,
+  'editor.semanticHighlighting.enabled': true,
+  'window.zoomLevel': 0.15,
+  'workbench.fontAliasing': 'auto',
   // If you also install Catppuccin Icons
-  "workbench.iconTheme": "catppuccin-latte",
-  "catppuccin-icons.hidesExplorerArrows": true
+  'workbench.iconTheme': 'catppuccin-latte',
+  'catppuccin-icons.hidesExplorerArrows': true
 }
 ```
 
@@ -63,9 +65,9 @@ Also, add these two options to your config ():
 ```json5
 {
   // Without this line colors will be washed out
-  "terminal.integrated.minimumContrastRatio": 1,
+  'terminal.integrated.minimumContrastRatio': 1,
   // Use normal colors for bold text
-  "terminal.integrated.drawBoldTextInBrightColors": false
+  'terminal.integrated.drawBoldTextInBrightColors': false
 }
 ```
 
