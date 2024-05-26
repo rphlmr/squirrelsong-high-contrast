@@ -1,10 +1,16 @@
 # Squirrelsong Light Theme for macOS
 
-> [!WARNING]
-> The actual color never goes brighter than `#e3e3e3` instead of `#f7f6f9`, and this color is the closest I could get to the theme colors.
+> [!WARNING] This isn’t an actual theme, just a few colors — macOS doesn’t let us customize many things…
 
 ## Installation
 
-1. Turn on reduced transparency to see any color on the menu bar: **Apple menu** → **System Settings** → **Accessibility** → **Display** → **Reduce transparency**.
-2. Accent/selection colors
-3. Mouse cursor colors
+1. In System Settings, open **Appearance** → **Display**, and change:
+
+   - Turn on **Reduce transparency**.
+   - Pointer outline color to `#FDFDFE`.
+   - Pointer fill color to `#4C4B4E`.
+
+2. In System Settings, open **Appearance**, and change:
+
+   - Accent color to **Graphite**.
+   - Highlight color to **Other**, and set `#AF9FC7` Accent/selection colors
