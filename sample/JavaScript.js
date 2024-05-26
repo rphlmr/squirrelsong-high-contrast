@@ -67,7 +67,7 @@ class Squirrel {
 }
 
 // ...there was a squirrel named Squeaky
-const Dracula = new Squirrel({
+const Squeaky = new Squirrel({
   location: 'Hundred Acre Wood',
   birthDate: 1924,
   deathDate: 1936,

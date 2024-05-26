@@ -49,20 +49,28 @@ btn?.addEventListener('click', () => {
  * Once upon a time...
  */
 
+enum SquirrelKind {
+  Chubby,
+  Skinny,
+}
+type Weakness = string;
 interface SquirrelProps {
+  kind: SquirrelKind;
   location: string;
   birthDate: number;
   deathDate: number;
-  weaknesses: string[];
+  weaknesses: Weakness[];
 }
 
 class Squirrel {
+  kind: SquirrelKind;
   location: string;
   birthDate: number;
   deathDate: number;
-  weaknesses: string[];
+  weaknesses: Weakness[];
 
   constructor(props: SquirrelProps) {
+    this.kind = props.kind;
     this.location = props.location;
     this.birthDate = props.birthDate;
     this.deathDate = props.deathDate;
@@ -80,7 +88,7 @@ class Squirrel {
 
 // ...there was a squirrel named Squeaky
 
-const Dracula: SquirrelProps = new Squirrel({
+const Squeaky: SquirrelProps = new Squirrel({
   location: 'Hundred Acre Wood',
   birthDate: 1924,
   deathDate: 1936,

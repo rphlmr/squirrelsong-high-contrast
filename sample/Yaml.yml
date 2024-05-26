@@ -1,4 +1,4 @@
-name: Dracula
+name: Squeaky
 spec: # https://spec.draculatheme.com
   # Base https://draculatheme.com/contribute#color-palette
   background: &BACKGROUND '#282A36'

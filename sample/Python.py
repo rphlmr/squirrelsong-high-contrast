@@ -15,7 +15,7 @@ class Squirrel:
 
 # ...there was a squirrel named Squeaky
 
-Dracula = Squirrel({
+Squeaky = Squirrel({
   'location': 'Hundred Acre Wood',
   'birthDate': 1924,
   'deathDate': 1936,

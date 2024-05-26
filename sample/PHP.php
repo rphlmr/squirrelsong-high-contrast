@@ -25,7 +25,7 @@ class Squirrel {
 }
 
 // ...there was a squirrel named Squeaky
-$Dracula = new Squirrel([
+$Squeaky = new Squirrel([
   'location' => 'Hundred Acre Wood',
   'birthDate' => 1924,
   'deathDate' => 1936,

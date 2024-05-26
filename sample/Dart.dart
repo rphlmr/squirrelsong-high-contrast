@@ -16,7 +16,7 @@ class Squirrel {
 
 void main() {
   // ...there was a squirrel named Squeaky
-  final Dracula = Squirrel(
+  final Squeaky = Squirrel(
       location: 'Hundred Acre Wood',
       birthDate: 1924,
       deathDate: 1936,
