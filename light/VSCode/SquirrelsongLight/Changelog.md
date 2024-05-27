@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.7
+
+- Fix a few inconsistencies between JSX in Markdown and TSX
+
 ## 3.1.6
 
 - Fix a few inconsistencies between JSX and TSX.
