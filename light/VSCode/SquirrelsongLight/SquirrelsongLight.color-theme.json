@@ -434,9 +434,11 @@
         "punctuation.section.array-initializer.end.bracket.curly.java",
         // JavaScript / TypeScript
         "meta.jsx.children.tsx",
+        "meta.jsx.children.js.jsx",
         "meta.brace.round.js",
         "meta.brace.round.ts",
         "meta.brace.round.tsx",
+        "meta.parameter.object-binding-pattern.js.jsx",
         "punctuation.separator.comma.js",
         "punctuation.separator.comma.ts",
         "punctuation.separator.comma.tsx",

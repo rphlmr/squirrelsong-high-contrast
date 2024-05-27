@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Stack, Heading, IconCoffee } from '.';
 import { name, icon } from './Hola.css';
@@ -25,7 +25,7 @@ const someTemplateLiteral = `There was a squirrel named ${name}`;
 const someObject = {
   hello,
   varUrl,
-  adios: 42,
+  adios: '42',
 };
 
 // From https://vscodethemes.com/
@@ -81,3 +81,46 @@ const Test = () => (
     </Stack>
   </Heading>
 );
+
+function Tweets() {
+  const [isLoading, setLoading] = useState(false);
+  const [isError, setError] = useState(false);
+  const [tweets, setTweets] = useState([]);
+
+  const handleLoadTweets = () => {
+    setLoading(true);
+    getTweets()
+      .then((tweets) => {
+        setTweets(tweets);
+        setLoading(false);
+        setError(false);
+      })
+      .catch(() => {
+        setTweets([]);
+        setLoading(false);
+        setError(true);
+      });
+  };
+
+  if (isLoading) {
+    return <p>Loading…</p>;
+  }
+
+  if (isError) {
+    return <p>Something went wrong!</p>;
+  }
+
+  if (tweets.length === 0) {
+    return <button onClick={handleLoadTweets}>Load tweets</button>;
+  }
+
+  return (
+    <ul>
+      {tweets.map(({ id, username, html }) => (
+        <li key={id}>
+          {html} by {username}
+        </li>
+      ))}
+    </ul>
+  );
+}

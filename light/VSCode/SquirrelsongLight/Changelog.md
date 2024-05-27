@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.6
+
+- Fix a few inconsistencies between JSX and TSX.
+
 ## 3.1.5
 
 - Improve Markdown styles a bit.
