@@ -1,8 +1,14 @@
 # Changelog
 
+## 3.1.8
+
+- Show classes the same ways as functions.
+- Show enum properties the same way as object properties.
+- Don't show generic types in bold in some cases.
+
 ## 3.1.7
 
-- Fix a few inconsistencies between JSX in Markdown and TSX
+- Fix a few inconsistencies between JSX in Markdown and TSX.
 
 ## 3.1.6
 

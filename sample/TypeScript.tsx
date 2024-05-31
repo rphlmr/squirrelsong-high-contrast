@@ -98,10 +98,16 @@ export function Hola({ children }: Props) {
   );
 }
 
+interface Tweet {
+  id: string;
+  username: string;
+  html: string;
+}
+
 function Tweets() {
   const [isLoading, setLoading] = useState(false);
   const [isError, setError] = useState(false);
-  const [tweets, setTweets] = useState([]);
+  const [tweets, setTweets] = useState<Tweet>([]);
 
   const handleLoadTweets = () => {
     setLoading(true);

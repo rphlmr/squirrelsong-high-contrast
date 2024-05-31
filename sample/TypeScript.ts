@@ -89,6 +89,7 @@ class Squirrel {
 // ...there was a squirrel named Squeaky
 
 const Squeaky: SquirrelProps = new Squirrel({
+  kind: SquirrelKind.Chubby,
   location: 'Hundred Acre Wood',
   birthDate: 1924,
   deathDate: 1936,

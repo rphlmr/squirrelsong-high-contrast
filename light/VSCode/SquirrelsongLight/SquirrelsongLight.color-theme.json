@@ -4,10 +4,16 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function": { "foreground": "#80a4be", "fontStyle": "bold" },
+    "class": { "foreground": "#80a4be", "fontStyle": "bold" },
+    "method": { "foreground": "#80a4be", "fontStyle": "bold" },
     "variable": { "foreground": "#80a4be", "fontStyle": "italic" },
     "module": { "foreground": "#80a4be", "fontStyle": "italic" },
     "property": { "foreground": "#80a4be", "fontStyle": "" },
-    "type": { "foreground": "#5f9b8d", "fontStyle": "" }
+    "enumMember": { "foreground": "#80a4be", "fontStyle": "" },
+    "type": { "foreground": "#5f9b8d", "fontStyle": "" },
+    "interface": { "foreground": "#5f9b8d", "fontStyle": "" },
+    "enum": { "foreground": "#5f9b8d", "fontStyle": "" },
+    "operator": { "foreground": "#5f9b8d", "fontStyle": "" }
   },
   "colors": {
     "activityBar.activeBorder": "#4c4b4e",
@@ -528,9 +534,6 @@
     },
     {
       "scope": [
-        "support.class",
-        "entity.name.class",
-        "entity.name.type.class",
         "keyword.operator.quantifier.regexp",
         // C
         "keyword.operator.c",
@@ -694,7 +697,6 @@
         // PHP
         "source.php.embedded.line",
         "keyword.other.type.php",
-        "support.class.php",
         "punctuation.section.embedded.begin.php",
         "punctuation.section.embedded.end.php",
         // Python
@@ -772,11 +774,15 @@
     {
       "scope": [
         "entity.name.function",
+        "entity.name.class",
+        "entity.name.type.class",
         // CSS
         "support.function.calc.css",
         "support.function.url.css",
         "support.function.misc.css",
         "support.function.shape.css",
+        // PHP
+        "support.class.php",
         // Python
         "support.function.builtin.python",
         "meta.function-call.python",
