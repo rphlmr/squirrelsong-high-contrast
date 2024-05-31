@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.9
+
+- Add colors for conflicts in merge editor.
+
 ## 3.1.8
 
 - Show classes the same ways as functions.
