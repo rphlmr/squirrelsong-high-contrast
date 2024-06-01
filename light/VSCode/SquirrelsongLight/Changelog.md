@@ -3,6 +3,7 @@
 ## 3.1.9
 
 - Add colors for conflicts in merge editor.
+- Support Node.js’ `import.meta`.
 
 ## 3.1.8
 
