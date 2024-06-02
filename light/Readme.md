@@ -80,6 +80,7 @@
 
 |  | Where | Color | Hex | Style |
 | --- | --- | --- | --- | --- |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=78737d" width="20" height="20" alt=""> | Foreground | gray07 | #78737d |  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=78737d" width="20" height="20" alt=""> | Punctuation | gray07 | #78737d |  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9c96a2" width="20" height="20" alt=""> | Comment | gray09 | #9c96a2 |  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=ac9bc5" width="20" height="20" alt=""> | Keyword, tag name | purple | #ac9bc5 | Bold |
