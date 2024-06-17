@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.10
+
+- Update the dark terminal colors.
+
 ## 3.1.9
 
 - Add colors for conflicts in merge editor.
