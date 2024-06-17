@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Squirrelsong Dark</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+          'Segoe UI Symbol';
+        font-size: 1rem;
+        background-color: #352a21;
+        color: #ad9c8b;
+      }
+      table {
+        width: 100%;
+      }
+      td {
+        width: calc(100vw / 13);
+        height: 8rem;
+        text-align: center;
+      }
+
+      /* Grayscale hues: 25, 30 */
+      /* Purple hues: 262, 270 */
+
+      :root {
+        --foreground: #ad9c8b;
+        --black: #352a21;
+        --blackBright: #6b503c;
+        --white: #cfbaa5;
+        --whiteBright: #edd5be;
+        --blue: #5993c2;
+        --blueBright: #63a2d6;
+        --teal: #4f9593;
+        --tealBright: #72aaa8;
+        --green: #558240;
+        --greenBright: #709855;
+        --magenta: #7f61b3;
+        --magentaBright: #9672d4;
+        --red: #ac493e;
+        --redBright: #ce574a;
+        --yellow: #ceb250;
+        --yellowBright: #e2c358;
+
+        --foreground-purple: #9672d4;
+      }
+    </style>
+    <script type="module">
+      // TODO: To make this work we need to run a server but this can
+      // allow loading colors from a JSON file instead of redefining them here
+      // import colors from './palette.json' with { type: 'json' };
+    </script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td style="color: var(--foreground); background: var(--black)">foreground<br />black</td>
+        <td style="color: var(--foreground); background: var(--red)">foreground<br />red</td>
+        <td style="color: var(--foreground); background: var(--green)">foreground<br />green</td>
+        <td style="color: var(--foreground); background: var(--yellow)">foreground<br />yellow</td>
+        <td style="color: var(--foreground); background: var(--blue)">foreground<br />blue</td>
+        <td style="color: var(--foreground); background: var(--magenta)">foreground<br />magenta</td>
+        <td style="color: var(--foreground); background: var(--teal)">foreground<br />teal</td>
+        <td style="color: var(--foreground); background: var(--white)">foreground<br />white</td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); background: var(--black)">white<br />black</td>
+        <td style="color: var(--white); background: var(--red)">white<br />red</td>
+        <td style="color: var(--white); background: var(--green)">white<br />green</td>
+        <td style="color: var(--white); background: var(--yellow)">white<br />yellow</td>
+        <td style="color: var(--white); background: var(--blue)">white<br />blue</td>
+        <td style="color: var(--white); background: var(--magenta)">white<br />magenta</td>
+        <td style="color: var(--white); background: var(--teal)">white<br />teal</td>
+        <td style="color: var(--white); background: var(--white)">white<br />white</td>
+      </tr>
+      <tr>
+        <td style="color: var(--whiteBright); background: var(--black)">whiteBright<br />black</td>
+        <td style="color: var(--whiteBright); background: var(--red)">whiteBright<br />red</td>
+        <td style="color: var(--whiteBright); background: var(--green)">whiteBright<br />green</td>
+        <td style="color: var(--whiteBright); background: var(--yellow)">whiteBright<br />yellow</td>
+        <td style="color: var(--whiteBright); background: var(--blue)">whiteBright<br />blue</td>
+        <td style="color: var(--whiteBright); background: var(--magenta)">whiteBright<br />magenta</td>
+        <td style="color: var(--whiteBright); background: var(--teal)">whiteBright<br />teal</td>
+        <td style="color: var(--whiteBright); background: var(--white)">whiteBright<br />white</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td style="color: var(--foreground); background: #0a0909">foreground<br />gray00</td>
+        <td style="color: var(--foreground); background: #17120e">foreground<br />gray01</td>
+        <td style="color: var(--foreground); background: #292019">foreground<br />gray02</td>
+        <td style="color: var(--foreground); background: #352a21">foreground<br />gray03</td>
+        <td style="color: var(--foreground); background: #453327">foreground<br />gray04</td>
+        <td style="color: var(--foreground); background: #574131">foreground<br />gray05</td>
+        <td style="color: var(--foreground); background: #6b503c">foreground<br />gray06</td>
+        <td style="color: var(--foreground); background: #755945">foreground<br />gray07</td>
+        <td style="color: var(--foreground); background: #896b56">foreground<br />gray08</td>
+        <td style="color: var(--foreground); background: #9e8e7e">foreground<br />gray09</td>
+        <td style="color: var(--foreground); background: #ad9c8b">foreground<br />gray0a</td>
+        <td style="color: var(--foreground); background: #bfac99">foreground<br />gray0b</td>
+        <td style="color: var(--foreground); background: #cfbaa5">foreground<br />gray0c</td>
+        <td style="color: var(--foreground); background: #dec8b1">foreground<br />gray0d</td>
+        <td style="color: var(--foreground); background: #edd5be">foreground<br />gray0e</td>
+        <td style="color: var(--foreground); background: #fae1c8">foreground<br />gray0f</td>
+      </tr>
+      <tr>
+        <td style="color: var(--foreground-purple); background: #0b080f">foreground<br />purple0</td>
+        <td style="color: var(--foreground-purple); background: #171221">foreground<br />purple1</td>
+        <td style="color: var(--foreground-purple); background: #271e38">foreground<br />purple2</td>
+        <td style="color: var(--foreground-purple); background: #36294d">foreground<br />purple3</td>
+        <td style="color: var(--foreground-purple); background: #453461">foreground<br />purple4</td>
+        <td style="color: var(--foreground-purple); background: #57427a">foreground<br />purple5</td>
+        <td style="color: var(--foreground-purple); background: #6b5196">foreground<br />purple6</td>
+        <td style="color: var(--foreground-purple); background: #795cab">foreground<br />purple7</td>
+        <td style="color: var(--foreground-purple); background: #8465ba">foreground<br />purple8</td>
+        <td style="color: var(--foreground-purple); background: #987db3">foreground<br />purple9</td>
+        <td style="color: var(--foreground-purple); background: #9672d4">foreground<br />purplea</td>
+        <td style="color: var(--foreground-purple); background: #ba9adb">foreground<br />purpleb</td>
+        <td style="color: var(--foreground-purple); background: #caaee8">foreground<br />purplec</td>
+        <td style="color: var(--foreground-purple); background: #dbc1f7">foreground<br />purpled</td>
+        <td style="color: var(--foreground-purple); background: #ecd9ff">foreground<br />purplee</td>
+        <td style="color: var(--foreground-purple); background: #faf5ff">foreground<br />purplef</td>
+      </tr>
+    </table>
+  </body>
+</html>

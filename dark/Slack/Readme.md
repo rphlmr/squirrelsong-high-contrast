@@ -1,13 +1,13 @@
-# Squirrelsong Dark Theme for [Slack](https://slack.com/)
+# Squirrelsong Dark Deep Purple Theme for [Slack](https://slack.com/)
 
-![Squirrelsong Dark theme](screenshot.png)
+![Squirrelsong Dark Deep Purple theme](screenshot.png)
 
 ## Installation
 
 1. Copy the values below:
 
    ```
-   #58406E,#503A5C,#41635F,#CA5A83
+   #57427a,#453461,#41635F,#CA5A83
    ```
 
 2. Open **Preferences → Themes** in Slack.

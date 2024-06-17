@@ -1,6 +1,6 @@
 # Squirrelsong Dark Theme for [WezTerm](https://wezfurlong.org/wezterm/index.html)
 
-![Squirrelsong dark terminal color theme](./screenshot.png)
+![Squirrelsong dark terminal color theme](./screenshot.jpg)
 
 ## Installation from GitHub
 
@@ -23,7 +23,7 @@ config.window_frame = {
 
 -- Command Palette
 config.command_palette_bg_color = "#44382D"
-config.command_palette_fg_color = "#c4a389"
+config.command_palette_fg_color = "#cfbaa5"
 
 return config
 ```

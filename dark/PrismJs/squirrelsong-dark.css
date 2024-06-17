@@ -1,12 +1,11 @@
 /**
  * Squirrelsong Dark Theme for Prism
- * https://github.com/sapegin/squirrelsong
- * @author Artem Sapegin
+ * https://sapegin.me/squirrelsong/
  */
 
 code[class*='language-'],
 pre[class*='language-'] {
-  color: #9e8a74;
+  color: #ad9c8b;
   background: none;
   font-family: MonoLisa, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: 1em;
@@ -31,14 +30,14 @@ pre[class*='language-']::-moz-selection,
 pre[class*='language-'] ::-moz-selection,
 code[class*='language-']::-moz-selection,
 code[class*='language-'] ::-moz-selection {
-  background: #41352a;
+  background: #352a21;
 }
 
 pre[class*='language-']::selection,
 pre[class*='language-'] ::selection,
 code[class*='language-']::selection,
 code[class*='language-'] ::selection {
-  background: #41352a;
+  background: #352a21;
 }
 
 /* Code blocks */
@@ -68,7 +67,7 @@ pre[class*='language-'] {
 }
 
 .token.punctuation {
-  color: #9e8a74;
+  color: #9e8e7e;
 }
 
 .token.operator,
@@ -93,18 +92,18 @@ pre[class*='language-'] {
 
 .token.property,
 .token.attr-name {
-  color: #5d99cb;
+  color: #5993c2;
 }
 
 .token.constant,
 .token.variable,
 .token.symbol {
-  color: #5d99cb;
+  color: #5993c2;
   font-style: italic;
 }
 
 .token.function {
-  color: #5d99cb;
+  color: #5993c2;
   font-weight: bold;
 }
 
@@ -131,7 +130,7 @@ pre[class*='language-'] {
 }
 
 .token.url {
-  color: #64a1d3;
+  color: #63a2d6;
 }
 
 .token.bold {
