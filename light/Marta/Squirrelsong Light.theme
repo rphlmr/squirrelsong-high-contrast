@@ -4,7 +4,7 @@ base {
     appearance "light"
     background #f7f6f9
     separator #9c96a2
-    text #1d1c1c
+    text #4c4b4e
 }
 
 actionBar {
@@ -16,9 +16,9 @@ actionBar {
 }
 
 asyncProgressBar {
-    border #8d8d8d
-    progress #4e4c4c
-    itemProgress #868383
+    border #8c8792
+    progress #4c4b4e
+    itemProgress #8c8792
 }
 
 breadcrumbs {
@@ -29,7 +29,7 @@ breadcrumbs {
 
 files {
     background {
-        alternate #fefffe
+        alternate #fdfdfe
         current #9c96a2
         currentSelected #9c96a2
         selected #fae1ea
@@ -88,7 +88,7 @@ tableHeader {
     text #78737d
 
     pressed {
-        background #e5e5e5
+        background #e8e5eb
     }
 }
 
@@ -109,7 +109,7 @@ tabs {
 terminal {
     caret {
         background #78737d
-        text #fffeff
+        text #fdfdfe
     }
 }
 
@@ -127,11 +127,11 @@ textEditor {
     }
 
     gutter {
-        background #eaeaea
-        text #991d1c1c
+        background #e8e5eb
+        text #e5ada866
     }
 }
 
 titleBar {
-    text #1d1c1c
+    text #4c4b4e
 }

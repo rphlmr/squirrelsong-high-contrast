@@ -12,12 +12,15 @@ import rgbHex from 'rgb-hex';
 import cssColorNames from 'css-color-names' with { type: 'json' };
 
 // TODO: Terminal.app
+// TODO: Vivaldi (inside .zip file)
 
 let errorCount = 0;
 
 const EXTENSIONS = [
   'alfredappearance',
+  'cottheme',
   'css',
+  'ettyTheme',
   'itermcolors',
   'json',
   'lua',
@@ -25,10 +28,18 @@ const EXTENSIONS = [
   'theme',
   'tmTheme',
   'toml',
+  'vim',
   'yaml',
   // TODO: Not supported yet
   // 'terminal',
 ].join(',');
+
+const EXTRA_LIGHT_FILES = [
+  'light/Bartender/Readme.md',
+  'light/macOS/Readme.md',
+  'light/Slack/Readme.md',
+];
+const EXTRA_DARK_FILES = ['dark/Slack/Readme.md'];
 
 const IGNORES = [
   'package.json',
@@ -40,9 +51,12 @@ const TRANSPARENT = [
   // Transparent colors
   '#ffffff00',
   '#ffffffff',
+  '#00000000',
+  '#000000ff',
 ];
 
 const EXCEPTIONS = {
+  'light/Bartender/Readme.md': ['#e3e3e3', '#f4effc'],
   'light/JetBrains/squirrelsong-light/resources/theme/Squirrelsong Light.theme.json':
     [
       '#1d1d1f',
@@ -134,6 +148,13 @@ const EXCEPTIONS = {
       '#e7def5',
       '#ede7f6',
     ],
+  'light/Slack/colors.json': [
+    // Slack system navigation: existing colors look too intense (this color isn't
+    // used as is by Slack but is "adjusted" and other colors are made based on
+    // this color)
+    '#c3ccd6',
+  ],
+  'light/Slack/Readme.md': ['#c3ccd6'],
   'dark/WezTerm/squirrelsong-dark.toml': [
     '#080706',
     '#12100e',
@@ -159,12 +180,6 @@ const EXCEPTIONS = {
     '#d9c3ad',
     '#e3ccb6',
     '#edd5be',
-  ],
-  'light/Slack/colors.json': [
-    // Slack system navigation: existing colors look too intense (this color isn't
-    // used as is by Slack but is "adjusted" and other colors are made based on
-    // this color)
-    '#c3ccd6',
   ],
 };
 
@@ -244,6 +259,7 @@ function achtung(value, description) {
 }
 
 function readJsonFile(file) {
+  return JSON.parse(stripJsonComments(fs.readFileSync(file, 'utf8')));
   return JSON.parse(stripJsonComments(fs.readFileSync(file, 'utf8')));
 }
 
@@ -329,9 +345,12 @@ function lintText(file, validColors, exceptions) {
   });
 }
 
-function lint(root, palette, exceptions) {
+function lint(root, palette, extraFiles) {
   const validColors = Object.values(palette);
-  const themes = glob.sync(`${root}/*/**/*.{${EXTENSIONS}}`);
+  const themes = [
+    ...glob.sync(`${root}/*/**/*.{${EXTENSIONS}}`),
+    ...extraFiles,
+  ];
   const themesSorted = themes.toSorted((a, b) => a.localeCompare(b, 'en'));
   themesSorted.forEach((file) => {
     const filename = path.basename(file);
@@ -370,13 +389,13 @@ console.log();
 console.log();
 console.log('[LINT] Linting light themes... 🌞');
 const lightPalette = readJsonFile('light/palette.json');
-lint('light', lightPalette);
+lint('light', lightPalette, EXTRA_LIGHT_FILES);
 
 console.log();
 console.log();
 console.log('[LINT] Linting dark themes... 🌚');
 const darkPalette = readJsonFile('dark/palette.json');
-lint('dark', darkPalette);
+lint('dark', darkPalette, EXTRA_DARK_FILES);
 
 console.log();
 console.log();

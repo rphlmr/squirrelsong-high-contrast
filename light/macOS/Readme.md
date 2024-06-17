@@ -13,4 +13,4 @@
 2. In System Settings, open **Appearance**, and change:
 
    - Accent color to **Graphite**.
-   - Highlight color to **Other**, and set `#AF9FC7` Accent/selection colors
+   - Highlight color to **Other**, and set `#ac9bc5` Accent/selection colors
