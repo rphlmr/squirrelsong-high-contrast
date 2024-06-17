@@ -1,5 +1,7 @@
 # Squirrelsong color themes
 
+[![Node.js CI status](https://github.com/sapegin/squirrelsong/workflows/Node.js%20CI/badge.svg)](https://github.com/sapegin/squirrelsong/actions)
+
 Low contrast light & dark themes for web developers.
 
 - Low contrast with great readability

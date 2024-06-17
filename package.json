@@ -16,7 +16,8 @@
     "update": "node scripts/update.js",
     "prepare-extensions": "node scripts/prepare-extensions.js",
     "prepare-vscode": "node scripts/prepare-vscode.js",
-    "lint": "node scripts/lint.js"
+    "lint": "node scripts/lint.js",
+    "test": "npm run lint"
   },
   "devDependencies": {
     "prettier": "^3.0.1"
