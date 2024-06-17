@@ -22,6 +22,10 @@ Low contrast light & dark themes for web developers.
 
 You could also like [my dotfiles](https://github.com/sapegin/dotfiles).
 
+## Contributing
+
+Bug fixes and new themes are welcome! Please take a moment to review the [contributing guidelines](Contributing.md).
+
 ## Sponsoring
 
 Maintaining a color theme for multiple editors takes time and coffee, buy me one more cup to keep it going.
