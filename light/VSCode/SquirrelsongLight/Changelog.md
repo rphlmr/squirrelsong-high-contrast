@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.0
+
+- Tweak light contrast colors: make them less saturated, and allow lower contrast (3:1 instead of 4:1) for orange and yellow contrast colors
+
 ## 3.1.10
 
 - Update the dark terminal colors.
