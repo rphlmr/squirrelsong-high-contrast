@@ -229,6 +229,7 @@
     "panel.background": "#fdfdfe",
     "panel.border": "#e8e5eb",
     "panelInput.border": "#c9c4cf",
+    "panelSectionHeader.background": "#fdfdfe",
     "panelTitle.activeBorder": "#4c4b4e",
     "panelTitle.activeForeground": "#4c4b4e",
     "panelTitle.inactiveForeground": "#78737d",
