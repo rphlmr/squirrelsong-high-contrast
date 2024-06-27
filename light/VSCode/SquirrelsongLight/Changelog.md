@@ -1,9 +1,13 @@
 # Changelog
 
+## 3.2.1
+
+- Add input option hover background color.
+
 ## 3.2.0
 
-- Tweak light contrast colors: make them less saturated, and allow lower contrast (3:1 instead of 4:1) for orange and yellow contrast colors
-- Define panel section header background color
+- Tweak light contrast colors: make them less saturated, and allow lower contrast (3:1 instead of 4:1) for orange and yellow contrast colors.
+- Define panel section header background color.
 
 ## 3.1.10
 

@@ -169,6 +169,7 @@
     "inputOption.activeBackground": "#dbd7e0",
     "inputOption.activeBorder": "#c9c4cf",
     "inputOption.activeForeground": "#4c4b4e",
+    "inputOption.hoverBackground": "#e8e5eb",
     "inputValidation.errorBackground": "#f3dcda",
     "inputValidation.errorBorder": "#d67e76",
     "inputValidation.errorForeground": "#c06159",
