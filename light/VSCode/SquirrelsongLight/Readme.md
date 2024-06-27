@@ -27,7 +27,7 @@ I recommend to also install [Catppuccin Icons](https://marketplace.visualstudio.
 
 Here are my settings related to theming and typography:
 
-```json5
+```js
 {
   // This is all that matters
   'workbench.colorTheme': 'Squirrelsong Light',
@@ -62,7 +62,7 @@ To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemNa
 
 Also, add these two options to your config ():
 
-```json5
+```js
 {
   // Without this line colors will be washed out
   'terminal.integrated.minimumContrastRatio': 1,
