@@ -2,6 +2,11 @@
 
 ## 3.2.1
 
+- Redo regular expression highlighting to make less distracting and more consistent.
+- Make the yellow color a shade darker.
+
+## 3.2.1
+
 - Add input option hover background color.
 
 ## 3.2.0
@@ -64,7 +69,7 @@
 
 ## 3.0.2
 
-One more step to create the best low-contrast, non-distracting and neurodiversity-friendly theme that is comfortable for all-day coding without sensory overstimulation, and perfect for developers with ADHD, autism or highly sensitive people (HSP). No bright colors, no super high contrast, no distractions. Soft colors but still enough legibility for different part of the code and UI.
+One more step to create the best low-contrast, non-distracting and neurodiverse-friendly theme that is comfortable for all-day coding without sensory overstimulation, and perfect for developers with ADHD, autism or highly sensitive people (HSP). No bright colors, no super high contrast, no distractions. Soft colors but still enough legibility for different part of the code and UI.
 
 - New grayscale palette
   - All colors have the same hue with a subtle blueish tint, saturation is slightly higher for light colors
