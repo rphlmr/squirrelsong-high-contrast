@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.2
+
+- Change color of HTML entities to make them less distracting.
+
 ## 3.2.1
 
 - Redo regular expression highlighting to make less distracting and more consistent.

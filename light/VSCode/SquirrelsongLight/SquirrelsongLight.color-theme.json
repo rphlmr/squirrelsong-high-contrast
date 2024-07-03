@@ -374,6 +374,8 @@
       "scope": [
         // JavaScript / TypeScript
         "storage.type.class.jsdoc",
+        // HTML entities: &amp;
+        "constant.character",
         // Markdown
         "entity.name.section.markdown",
         "meta.separator.markdown",
@@ -413,6 +415,7 @@
     },
     {
       "scope": [
+        "invalid.deprecated",
         // Markdown
         "markup.strikethrough"
       ],
@@ -507,7 +510,6 @@
     {
       "scope": [
         "comment",
-        "invalid.deprecated",
         // Diff
         "meta.diff.range.unified",
         // Markdown
@@ -762,6 +764,12 @@
     },
     {
       "scope": [
+        // Escaped characters in RegExps: \/, \$
+        "constant.character.escape.backslash.regexp",
+        // Numeric escaped characters in RegExps: \u202f
+        "constant.character.numeric.regexp",
+        // Regexp flags
+        "keyword.other.ts",
         // JavaScript / TypeScript
         "constant.character.escape.js",
         "constant.character.escape.ts",
@@ -1038,20 +1046,6 @@
     },
     {
       "scope": [
-        // Escaped characters in RegExps: \/, \$
-        "constant.character.escape.backslash.regexp",
-        // Numeric escaped characters in RegExps: \u202f
-        "constant.character.numeric.regexp",
-        // Regexp flags
-        "keyword.other.ts"
-      ],
-      "settings": {
-        "foreground": "#9bae7e",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": [
         // RegExp negation: ^
         "keyword.operator.negation.regexp",
         // RegExp character classes: \n, \W, .
@@ -1073,7 +1067,6 @@
         "constant.numeric",
         "constant.language",
         "support.constant",
-        "constant.character",
         "keyword.other.unit",
         // CSS
         "entity.other.attribute-name.placeholder.css",

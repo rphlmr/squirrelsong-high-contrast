@@ -84,6 +84,7 @@ export function Hola({ children }) {
         gap="s"
         alignItems="baseline"
       >
+        <span>Squirrels &amp; raccoons</span>
         <span className={name}>{children}</span>
         <span>
           <IconCoffee className={icon} />
