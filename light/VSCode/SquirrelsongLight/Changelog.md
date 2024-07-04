@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.3
+
+- Tweak colors for CSS at-rules.
+
 ## 3.2.2
 
 - Change color of HTML entities to make them less distracting.

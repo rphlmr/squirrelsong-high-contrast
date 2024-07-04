@@ -45,3 +45,16 @@ input [type='radio'] {
   font-weight: 700;
   font-style: normal;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .some-element {
+    animation: bounce 1200ms;
+  }
+}
+
+@starting-style {
+  .item {
+    opacity: 0;
+    height: 0;
+  }
+}

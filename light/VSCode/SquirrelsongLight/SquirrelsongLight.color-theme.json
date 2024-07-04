@@ -576,6 +576,7 @@
         "entity.other.attribute-name.pseudo-class.css",
         "keyword.control.at-rule.font-face.css",
         "keyword.control.at-rule.css",
+        "keyword.control.at-rule.media.css",
         "keyword.operator.combinator.css",
         "keyword.operator.arithmetic.css",
         // Go
@@ -906,6 +907,7 @@
         // C
         "variable.other.member.c",
         // CSS
+        "meta.at-rule.media.header.css",
         "support.type.property-name.css",
         // C#
         "entity.name.variable.local.cs",
