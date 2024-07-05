@@ -1,24 +1,24 @@
 # Squirrelsong Light color theme
 
-![Squirrelsong Light](https://github.com/sapegin/squirrelsong/raw/master/light/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)
+![Squirrelsong Light](../themes/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)
 
 ## Available themes
 
-- [Alfred](./Alfred)
-- [Bear](./Bear)
-- [Google Chrome](./Chrome)
-- [Google Chrome DevTools](./Chrome%20DevTools)
-- [CotEditor](./CotEditor)
-- [JetBrains](./JetBrains)
-- [Marta File Manager](./Marta)
-- [Nimble Commander](./Nimble%20Commander)
-- [Peek](./Peek)
-- [Prism.js](./PrismJs)
-- [Slack](./Slack)
-- [Sublime Text](./Sublime%20Text)
-- [Telegram](./Telegram)
-- [Visual Studio Code](./VSCode)
-- [Vivaldi](./Vivaldi)
+- [Alfred](../themes/Alfred)
+- [Bear](../themes/Bear)
+- [Google Chrome](../themes/Chrome)
+- [Google Chrome DevTools](../themes/Chrome%20DevTools)
+- [CotEditor](../themes/CotEditor)
+- [JetBrains](../themes/JetBrains)
+- [Marta File Manager](../themes/Marta)
+- [Nimble Commander](../themes/Nimble%20Commander)
+- [Peek](../themes/Peek)
+- [Prism.js](../themes/PrismJs)
+- [Slack](../themes/Slack)
+- [Sublime Text](../themes/Sublime%20Text)
+- [Telegram](../themes/Telegram)
+- [Visual Studio Code](../themes/VSCode)
+- [Vivaldi](../themes/Vivaldi)
 
 ## Colors
 

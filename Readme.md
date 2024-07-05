@@ -12,11 +12,11 @@ Low contrast light & dark themes for web developers.
 
 ## [Squirrelsong Light](light)
 
-[![Squirrelsong Light](https://github.com/sapegin/squirrelsong/raw/master/light/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)](light)
+[![Squirrelsong Light](themes/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)](light)
 
 ## [Squirrelsong Dark](dark)
 
-[![Squirrelsong Dark color theme](dark/VSCode/SquirrelsongDark/screenshot.png)](dark)
+[![Squirrelsong Dark color theme](themes/VSCode/SquirrelsongDark/screenshot.png)](dark)
 
 ---
 

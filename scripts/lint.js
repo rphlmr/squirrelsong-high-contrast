@@ -35,11 +35,11 @@ const EXTENSIONS = [
 ].join(',');
 
 const EXTRA_LIGHT_FILES = [
-  'light/Bartender/Readme.md',
-  'light/macOS/Readme.md',
-  'light/Slack/Readme.md',
+  'themes/Bartender/Readme.md',
+  'themes/macOS/Readme.md',
+  'themes/Slack/Readme.md',
 ];
-const EXTRA_DARK_FILES = ['dark/Slack/Readme.md'];
+const EXTRA_DARK_FILES = ['themes/Slack/Readme.md'];
 
 const IGNORES = [
   'package.json',
@@ -56,8 +56,8 @@ const TRANSPARENT = [
 ];
 
 const EXCEPTIONS = {
-  'light/Bartender/Readme.md': ['#e3e3e3', '#f4effc'],
-  'light/JetBrains/squirrelsong-light/resources/theme/Squirrelsong Light.theme.json':
+  'themes/Bartender/Readme.md': ['#e3e3e3', '#f4effc'],
+  'themes/JetBrains/squirrelsong-light/resources/theme/Squirrelsong Light.theme.json':
     [
       '#1d1d1f',
       '#272629',
@@ -148,14 +148,26 @@ const EXCEPTIONS = {
       '#e7def5',
       '#ede7f6',
     ],
-  'light/Slack/colors.json': [
+  'themes/Slack/colors-light.json': [
     // Slack system navigation: existing colors look too intense (this color isn't
     // used as is by Slack but is "adjusted" and other colors are made based on
     // this color)
     '#d2ccdb',
   ],
-  'light/Slack/Readme.md': ['#d2ccdb'],
-  'dark/WezTerm/squirrelsong-dark.toml': [
+  // Slack readme includes both themes
+  'themes/Slack/Readme.md': [
+    // Light
+    '#d2ccdb',
+    '#d7cfe3',
+    '#527b98',
+    '#ac9bc5',
+    // Dark
+    '#57427a',
+    '#453461',
+    '#41635f',
+    '#ca5a83',
+  ],
+  'themes/WezTerm/squirrelsong-dark.toml': [
     '#080706',
     '#12100e',
     '#1c1916',

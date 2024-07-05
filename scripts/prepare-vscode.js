@@ -6,8 +6,8 @@
 import fs from 'fs';
 import stripJsonComments from 'strip-json-comments';
 
-const LIGHT_DIR = 'light/VSCode/SquirrelsongLight';
-const DARK_DIR = 'dark/VSCode/SquirrelsongDark';
+const LIGHT_DIR = 'themes/VSCode/SquirrelsongLight';
+const DARK_DIR = 'themes/VSCode/SquirrelsongDark';
 const BASE_LIGHT = `${LIGHT_DIR}/SquirrelsongLight.color-theme.json`;
 const BASE_DARK = `${DARK_DIR}/SquirrelsongDark.color-theme.json`;
 

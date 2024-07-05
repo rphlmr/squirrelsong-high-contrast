@@ -1,6 +1,5 @@
 node_modules/
-light/Chrome/extension/squirrelsong-light.zip
 dist/
 /squirrelsong-master
-light/VSCode/SquirrelsongLight/SquirrelsongLightDarkTerminal.color-theme.json
+themes/VSCode/SquirrelsongLight/SquirrelsongLightDarkTerminal.color-theme.json
 Cached Theme.pak
