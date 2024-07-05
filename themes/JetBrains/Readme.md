@@ -1,6 +1,8 @@
-# Squirrelsong Theme for JetBrains
+# Squirrelsong Light Theme for JetBrains
 
 Should work in all JetBrains IDEs: IDEA, RubyMine, WebStorm, PhpStorm, PyCharm, etc.
+
+![Squirrelsong light theme for JetBrains](squirrelsong-light/screenshot.png)
 
 ## Installation
 
