@@ -73,6 +73,8 @@
     "editor.findMatchHighlightBackground": "#e87da433",
     "editor.findRangeHighlightBackground": "#f5da7022",
     "editor.focusedStackFrameHighlightBackground": "#e7ebe0",
+    "editor.foldBackground": "#dbd7e022",
+    "editor.foldPlaceholderForeground": "#8c8792",
     "editor.foreground": "#78737d",
     "editor.hoverHighlightBackground": "#80a4be11",
     "editor.inactiveSelectionBackground": "#f5da7022",

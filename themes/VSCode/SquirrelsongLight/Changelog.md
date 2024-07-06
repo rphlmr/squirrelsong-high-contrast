@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.4
+
+- Tweak colors for folds.
+
 ## 3.2.3
 
 - Tweak colors for CSS at-rules.
