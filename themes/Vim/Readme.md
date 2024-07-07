@@ -6,9 +6,7 @@ Also works in: [Neovim](https://neovim.io).
 
 In your Vim configuration, use `:colorscheme squirrelsong_light`.
 
-Set `g:squirrelsong_color_only` to `v:true` beforehand to
-disable additional styling like italic, bold, etc. This can
-help on some terminals and fonts that don't support them that well
+Set `g:squirrelsong_color_only` to `v:true` beforehand to disable additional styling like italic, bold, etc. This can help on some terminals and fonts that don't support them that well.
 
 ## Installation with [lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -39,4 +37,4 @@ call plug#end()
 
 ## Installation from GitHub
 
-Put [`squirrelsong_light.vim`](squirrelsong_light.vim) in the `colors` directory somewhere on your `'rtp'`. `:echo &rtp` will print your `'rtp'`
+Put [`squirrelsong_light.vim`](squirrelsong_light.vim) in the `colors` directory somewhere on your `'rtp'`. `:echo &rtp` will print your `'rtp'`.
