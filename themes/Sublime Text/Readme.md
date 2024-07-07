@@ -1,8 +1,8 @@
 # Squirrelsong Light and Dark Theme for [Sublime Text](https://www.sublimetext.com/)
 
-![Squirrelsong Light theme for Sublime Text](screenshot-light.png)
+![Squirrelsong Light theme for Sublime Text](screenshot-light.jpg)
 
-![Squirrelsong Dark theme for Sublime Text](screenshot-dark.png)
+![Squirrelsong Dark theme for Sublime Text](screenshot-dark.jpg)
 
 ## Installation from GitHub
 
