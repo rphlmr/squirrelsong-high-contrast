@@ -1,6 +1,6 @@
 # Squirrelsong Light Theme for [Marta File Manager](https://marta.sh/)
 
-![Squirrelsong Light](screenshot-light.png)
+![Squirrelsong Light theme for Marta File Manager](screenshot-light.png)
 
 ## Installation from GitHub
 

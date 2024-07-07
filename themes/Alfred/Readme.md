@@ -1,6 +1,6 @@
 # Squirrelsong Light Theme for [Alfred](https://www.alfredapp.com/)
 
-![Squirrelsong Light](screenshot-light.png)
+![Squirrelsong Light theme for Alfred](screenshot-light.png)
 
 ## Installation from Alfredapp.com
 

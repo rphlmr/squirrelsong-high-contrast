@@ -1,6 +1,6 @@
 # Squirrelsong Dark Theme for [Midnight Commander](https://midnight-commander.org/)
 
-![Squirrelsong dark theme for Midnight Commander](./screenshot-dark.png)
+![Squirrelsong dark theme for Midnight Commander](screenshot-dark.png)
 
 ## Installation from GitHub
 

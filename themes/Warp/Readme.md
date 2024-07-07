@@ -1,6 +1,6 @@
 # Squirrelsong Dark Theme for [Warp](https://www.warp.dev)
 
-![Squirrelsong dark theme for Warp](./screenshot-dark.png)
+![Squirrelsong dark theme for Warp](screenshot-dark.png)
 
 ## Installation from GitHub
 

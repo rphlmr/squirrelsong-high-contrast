@@ -1,6 +1,6 @@
 # Squirrelsong Dark color theme
 
-![Squirrelsong dark color theme](../themes/VSCode/SquirrelsongDark/screenshot.png)
+![Squirrelsong dark color theme](../themes/VSCode/screenshot-dark.jpg)
 
 ![Squirrelsong dark terminal color theme](../themes/WezTerm/screenshot-dark.jpg)
 

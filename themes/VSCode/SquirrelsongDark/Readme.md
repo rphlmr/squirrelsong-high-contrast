@@ -2,7 +2,7 @@
 
 A low contrast dark theme for web developers.
 
-![Squirrelsong Dark](https://github.com/sapegin/squirrelsong/raw/master/themes/VSCode/SquirrelsongDark/screenshot.png)
+![Squirrelsong Dark](https://github.com/sapegin/squirrelsong/raw/master/themes/VSCode/screenshot-dark.jpg)
 
 - Low contrast with great readability
 - Made for web developers

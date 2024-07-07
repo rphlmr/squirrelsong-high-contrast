@@ -1,6 +1,6 @@
 # Squirrelsong Dark Theme for [WezTerm](https://wezfurlong.org/wezterm/)
 
-![Squirrelsong dark theme for WezTerm](./screenshot-dark.jpg)
+![Squirrelsong dark theme for WezTerm](screenshot-dark.jpg)
 
 ## Installation from GitHub
 

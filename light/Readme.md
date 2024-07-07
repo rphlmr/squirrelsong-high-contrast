@@ -1,6 +1,6 @@
 # Squirrelsong Light color theme
 
-![Squirrelsong Light](../themes/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)
+![Squirrelsong Light](../themes/VSCode/screenshot-light.jpg)
 
 ## Available themes
 

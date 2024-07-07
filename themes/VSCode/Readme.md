@@ -1,8 +1,8 @@
 # Squirrelsong Light and Dark Themes for Visual Studio Code
 
-![Squirrelsong Light theme](SquirrelsongLight/screenshots/screenshot.jpg)
+![Squirrelsong Light theme for Visual Studio Code](screenshot-light.jpg)
 
-![Squirrelsong Dark theme](SquirrelsongDark/screenshot.png)
+![Squirrelsong Dark theme for Visual Studio Code](screenshot-dark.jpg)
 
 ## Installation from Visual Studio Marketplace
 

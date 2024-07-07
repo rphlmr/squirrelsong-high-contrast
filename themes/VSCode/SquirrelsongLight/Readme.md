@@ -6,7 +6,7 @@ A low-contrast, non-distracting and neurodiverse-friendly theme that is comforta
 
 [Install on Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongLight)
 
-![Squirrelsong Light for Visual Studio Code](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/SquirrelsongLight/screenshots/screenshot.jpg)
+![Squirrelsong Light for Visual Studio Code](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/screenshot-light.jpg)
 
 - Low contrast with great readability
 - Made for web developers and highly sensitive people
@@ -52,9 +52,9 @@ Here are my settings related to theming and typography:
 
 ## More screenshots
 
-![Squirrelsong Light: editing code](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/SquirrelsongLight/screenshots/screenshot-code.png)
+![Squirrelsong Light: editing code](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/screenshots/screenshot-code.png)
 
-![Squirrelsong Light: opening files](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/SquirrelsongLight/screenshots/screenshot-files.jpg)
+![Squirrelsong Light: opening files](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/screenshots/screenshot-files.jpg)
 
 ## How to make the integrated terminal dark?
 
@@ -71,7 +71,7 @@ Also, add these two options to your config ():
 }
 ```
 
-![Squirrelsong Light with dark terminal](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/SquirrelsongLight/screenshots/screenshot-terminal.jpg)
+![Squirrelsong Light with dark terminal](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/screenshots/screenshot-terminal.jpg)
 
 ## Try Squirrelsong for other apps
 

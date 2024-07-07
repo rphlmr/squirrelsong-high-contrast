@@ -2,7 +2,7 @@
 
 Should work in all JetBrains IDEs: IDEA, RubyMine, WebStorm, PhpStorm, PyCharm, etc.
 
-![Squirrelsong light theme for JetBrains](squirrelsong-light/screenshot.png)
+![Squirrelsong Light theme for JetBrains](screenshot-light.png)
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # Squirrelsong Light Theme for [Vivaldi](https://vivaldi.com)
 
-![Squirrelsong Light theme](screenshot-light.png)
+![Squirrelsong Light theme for Vivaldi](screenshot-light.png)
 
 ## Installation from Vivaldi Themes
 

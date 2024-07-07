@@ -1,10 +1,10 @@
-# Squirrelsong Light and Dark Themes for Google Chrome
+# Squirrelsong Light and Dark Themes for [Google Chrome](https://www.google.com/chrome/)
 
-Also works for Microsoft Edge,  and other Chromium-based browsers.
+Also works for Microsoft Edge, and other Chromium-based browsers.
 
-![Squirrelsong light theme](./screenshot-light.jpg)
+![Squirrelsong Light theme for Google Chrome](screenshot-light.jpg)
 
-![Squirrelsong dark theme](./screenshot-dark.jpg)
+![Squirrelsong Dark Deep Purple theme for Google Chrome](screenshot-dark.jpg)
 
 ## Installation from Chrome Web Store
 

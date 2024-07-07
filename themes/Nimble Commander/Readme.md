@@ -1,6 +1,6 @@
 # Squirrelsong Light Theme for [Nimble Commander](https://magnumbytes.com/)
 
-![Squirrelsong Light](screenshot-light.png)
+![Squirrelsong Light theme for Nimble Commander](screenshot-light.png)
 
 ## Installation from GitHub
 
