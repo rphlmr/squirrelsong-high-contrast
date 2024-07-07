@@ -1,6 +1,6 @@
 # Squirrelsong Light Theme for [Vim](https://www.vim.org)
 
-Also works for [Neovim](https://neovim.io).
+Also works in: [Neovim](https://neovim.io).
 
 ![Squirrelsong Light theme for Neovim/Vim](screenshot-light.png)
 

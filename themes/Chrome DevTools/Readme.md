@@ -1,6 +1,6 @@
 # Squirrelsong Light Theme for Google Chrome DevTools
 
-Also works for Microsoft Edge, Opera, Brave, Vivaldi.
+Also works in other Chromium-based browsers: Microsoft Edge, Opera, Brave, Vivaldi.
 
 ## Installation from GitHub
 
