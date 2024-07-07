@@ -60,7 +60,7 @@ Here are my settings related to theming and typography:
 
 To use the [Squirrelsong Dark](https://marketplace.visualstudio.com/items?itemName=sapegin.Theme-SquirrelsongDark) theme in the integrated terminal, choose the `Squirrelsong Light (Dark Terminal)` theme instead of the `Squirrelsong Light`.
 
-Also, add these two options to your config ():
+Also, add these two options to your config:
 
 ```js
 {

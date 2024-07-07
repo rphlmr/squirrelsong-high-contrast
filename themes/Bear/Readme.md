@@ -7,7 +7,7 @@
 
 ## Installation from GitHub
 
-1. Download [Squirrelsong Light.theme](Squirrelsong%20Light.theme).
+1. Download [`Squirrelsong Light.theme`](Squirrelsong%20Light.theme).
 2. Open `/Applications` folder in Finder.
 3. Choose **Show Package Contents** on Bear.app.
 4. Navigate to `Frameworks` → `Bear Core Frameworks` → `Resources`.

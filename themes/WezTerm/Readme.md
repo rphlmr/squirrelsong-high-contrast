@@ -4,7 +4,7 @@
 
 ## Installation from GitHub
 
-1. Copy the [squirrelsong-dark.toml](squirrelsong-dark.toml) to `~/.config/wezterm/colors`.
+1. Copy the [`squirrelsong-dark.toml`](squirrelsong-dark.toml) to `~/.config/wezterm/colors`.
 
 2. Update your WezTerm config, `~/.wezterm.lua`, so it looks something like this:
 

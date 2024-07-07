@@ -4,7 +4,7 @@
 
 ## Installation from GitHub
 
-1. Download [Squirrelsong Light.cottheme](Squirrelsong%20Light.cottheme).
+1. Download [`Squirrelsong Light.cottheme`](Squirrelsong%20Light.cottheme).
 2. Open **Settings**, then **Appearance**.
 3. Open **Theme** dropdown at the bottom, and choose **Import...**.
 4. Select `Squirrelsong Light.cottheme`.

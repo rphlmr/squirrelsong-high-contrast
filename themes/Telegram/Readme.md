@@ -4,6 +4,6 @@
 
 ![Squirrelsong Dark Deep Purple theme for Telegram](screenshot-dark.png)
 
-## Installation
+## Installation from Telegram
 
 Follow the instructions: [light theme](https://t.me/addtheme/squirrelsonglight), [dark theme](https://t.me/addtheme/squirrelsongdarkdp).

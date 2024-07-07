@@ -1,6 +1,6 @@
 # Squirrelsong Light and Dark Themes for [Google Chrome](https://www.google.com/chrome/)
 
-Also works for Microsoft Edge, and other Chromium-based browsers.
+Also works for Microsoft Edge, Brave.
 
 ![Squirrelsong Light theme for Google Chrome](screenshot-light.jpg)
 

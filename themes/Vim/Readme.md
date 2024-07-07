@@ -1,4 +1,6 @@
-# Squirrelsong Light Theme for [Neovim](https://neovim.io)/[Vim](https://www.vim.org)
+# Squirrelsong Light Theme for [Vim](https://www.vim.org)
+
+Also works for [Neovim](https://neovim.io).
 
 ![Squirrelsong Light theme for Neovim/Vim](screenshot-light.png)
 
@@ -35,7 +37,6 @@ call plug#begin()
 call plug#end()
 ```
 
-## Manual Installation
+## Installation from GitHub
 
-Put [`squirrelsong_light.vim`](squirrelsong_light.vim)
-in a `colors` directory somewhere on your `'rtp'`. `:echo &rtp` will print your `'rtp'`
+Put [`squirrelsong_light.vim`](squirrelsong_light.vim) in the `colors` directory somewhere on your `'rtp'`. `:echo &rtp` will print your `'rtp'`

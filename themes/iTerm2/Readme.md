@@ -4,7 +4,7 @@
 
 ## Installation from GitHub
 
-1. Download [Squirrelsong Dark.itermcolors](Squirrelsong%20Dark.itermcolors).
+1. Download [`Squirrelsong Dark.itermcolors`](Squirrelsong%20Dark.itermcolors).
 2. Open **Settings**, then **Profiles**, then **Colors**.
 3. Open **Color presets** dropdown at the bottom, and choose **Import**.
 4. Select `Squirrelsong Dark.itermcolors`.

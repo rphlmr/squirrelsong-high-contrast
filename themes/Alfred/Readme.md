@@ -8,6 +8,6 @@
 
 ## Installation from GitHub
 
-1. Download [`Squirrelsong Light.alfredappearance`](/.Squirrelsong Light.alfredappearance).
+1. Download [`Squirrelsong Light.alfredappearance`](Squirrelsong%20Light.alfredappearance).
 2. Open the downloaded file.
 3. Confirm import in Alfred.

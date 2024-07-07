@@ -4,7 +4,7 @@
 
 ## Installation from GitHub
 
-1. Download [Squirrelsong Light.json](Squirrelsong%20Light.json).
+1. Download [`Squirrelsong Light.json`](Squirrelsong%20Light.json).
 2. Open **Settings**, then **Themes**.
 3. Open **Theme** dropdown at the bottom, and choose **Import theme...**.
 4. Select `Squirrelsong Light.json`.

@@ -8,7 +8,7 @@
 
 ## Installation from GitHub
 
-1. Download [Squirrelsong Light.zip](Squirrelsong%20Light.zip).
+1. Download [`Squirrelsong Light.zip`](Squirrelsong%20Light.zip).
 2. Open **Settings**, then **Themes**.
 3. Press **Open Theme...** button.
 4. Select `Squirrelsong Light.zip`.
