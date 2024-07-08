@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.5
+
+- Fix images in readme.
+
 ## 3.2.4
 
 - Tweak colors for folds.
