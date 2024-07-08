@@ -1,8 +1,10 @@
 # Changelog
 
-## 2.0.4
+## 3.0.0
 
-- Fix some of the color that are supposed to be semi-transparent.
+- Update color palette.
+- Add terminal colors.
+- Fix some of the colors that are supposed to be semi-transparent.
 
 ## 2.0.3
 
