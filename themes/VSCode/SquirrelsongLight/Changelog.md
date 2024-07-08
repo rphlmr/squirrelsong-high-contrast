@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.6
+
+- Add colors for pull request badges.
+
 ## 3.2.5
 
 - Fix images in readme.
