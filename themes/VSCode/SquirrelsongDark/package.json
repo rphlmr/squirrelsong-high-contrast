@@ -1,7 +1,7 @@
 {
   "name": "Theme-SquirrelsongDark",
   "displayName": "Squirrelsong Dark Theme",
-  "description": "Low contrast dark theme",
+  "description": "Low-contrast dark color theme",
   "version": "2.0.3",
   "publisher": "sapegin",
   "author": {
@@ -19,17 +19,22 @@
     "theme",
     "dark theme",
     "squirrelsong",
-    "low contrast theme",
-    "scheme"
+    "low-contrast theme",
+    "scheme",
+    "non-distracting"
   ],
   "icon": "icon.png",
-  "homepage": "https://github.com/sapegin/squirrelsong",
+  "homepage": "https://sapegin.me/squirrelsong/",
   "repository": {
     "type": "git",
     "url": "https://github.com/sapegin/squirrelsong.git"
   },
   "sponsor": {
     "url": "https://www.buymeacoffee.com/sapegin"
+  },
+  "galleryBanner": {
+    "color": "#352a21",
+    "theme": "dark"
   },
   "contributes": {
     "themes": [
@@ -40,6 +45,10 @@
       }
     ]
   },
+  "files": [
+    "SquirrelsongDark.color-theme.json",
+    "images/icon.png"
+  ],
   "scripts": {
     "publish": "vsce publish"
   },
