@@ -378,12 +378,21 @@
   "tokenColors": [
     {
       "scope": [
+        // Markdown headings: #, ##, etc.
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#4c4b4e",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
         // JavaScript / TypeScript
         "storage.type.class.jsdoc",
         // HTML entities: &amp;
         "constant.character",
         // Markdown
-        "entity.name.section.markdown",
         "meta.separator.markdown",
         "markup.heading",
         "markup.heading.markdown",

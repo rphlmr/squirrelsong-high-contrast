@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.8
+
+- Darken Markdown headings to make them more noticeable.
+
 ## 3.2.6
 
 - Add colors for pull request badges.
