@@ -2,6 +2,7 @@
 
 ## 3.2.10
 
+- Improve readability of braces in JSX.
 - Tweak color of JSDoc braces.
 
 ## 3.2.9

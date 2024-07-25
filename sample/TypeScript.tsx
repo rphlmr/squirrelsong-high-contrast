@@ -91,7 +91,7 @@ export function Hola({ children }: Props) {
       >
         <span className={name}>{children}</span>
         <span>
-          <IconCoffee className={icon} />
+          <IconCoffee className={icon} size={{ width: 12, height: 16 }} />
         </span>
       </Stack>
     </Heading>
