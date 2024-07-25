@@ -1,25 +1,21 @@
 # Changelog
 
-## 3.2.10
+## 3.2.8
 
 - Improve readability of braces in JSX.
 - Tweak color of JSDoc braces.
 
-## 3.2.9
+## 3.2.7
 
 - Make the active find match more readable. VS Code selects the current line, so the text contrast becomes very low. Using a solid color instead of a semi-transparent fixes the issue.
 
-## 3.2.8
+## 3.2.6
 
 - Darken Markdown headings to make them more noticeable.
 
-## 3.2.6
-
-- Add colors for pull request badges.
-
 ## 3.2.5
 
-- Fix images in readme.
+- Add colors for pull request badges.
 
 ## 3.2.4
 
