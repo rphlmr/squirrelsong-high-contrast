@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.10
+
+- Tweak color of JSDoc braces.
+
 ## 3.2.9
 
 - Make the active find match more readable. VS Code selects the current line, so the text contrast becomes very low. Using a solid color instead of a semi-transparent fixes the issue.

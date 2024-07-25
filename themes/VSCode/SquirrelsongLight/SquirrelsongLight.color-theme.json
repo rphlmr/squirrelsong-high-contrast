@@ -471,6 +471,8 @@
         "meta.parameter.object-binding-pattern.js.jsx",
         "meta.parameter.object-binding-pattern.js",
         "punctuation.definition.block.tsx",
+        "punctuation.definition.bracket.curly.begin.jsdoc",
+        "punctuation.definition.bracket.curly.end.jsdoc",
         "punctuation.definition.parameters.begin.js",
         "punctuation.definition.parameters.begin.ts",
         "punctuation.definition.parameters.begin.tsx",

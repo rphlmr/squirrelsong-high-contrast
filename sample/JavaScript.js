@@ -94,6 +94,10 @@ export function Hola({ children }) {
   );
 }
 
+/**
+ * Note that the edit-builder {@link TextEditorEdit edit} is only valid while the
+ * callback executes.
+ */
 const regExps = [
   /hello/i,
   /h.llo/,
