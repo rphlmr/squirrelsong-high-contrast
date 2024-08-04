@@ -3,7 +3,7 @@
  * 1. Create Light with dark terminal theme
  */
 
-import fs from 'fs';
+import fs from 'node:fs';
 import stripJsonComments from 'strip-json-comments';
 
 const LIGHT_DIR = 'themes/VSCode/SquirrelsongLight';
@@ -16,7 +16,7 @@ function readJsonFile(file) {
 }
 
 function writeJsonFile(file, json) {
-  return fs.writeFileSync(file, JSON.stringify(json, null, '  '));
+  return fs.writeFileSync(file, JSON.stringify(json, undefined, '  '));
 }
 
 const baseLight = readJsonFile(BASE_LIGHT);

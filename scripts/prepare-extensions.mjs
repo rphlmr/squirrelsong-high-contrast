@@ -2,7 +2,7 @@
  * Build all browser extensions into ./dist folder
  */
 
-import fs from 'fs';
+import fs from 'node:fs';
 import ADMZip from 'adm-zip';
 
 console.log(`[BUILD] Building Chrome Light extension...`);
@@ -35,9 +35,13 @@ fs.copyFileSync(
   './themes/Chrome/extension-dark/manifest.json',
   './dist/chrome-dark-dp/manifest.json',
 );
-fs.cpSync('./themes/Chrome/extension-dark/images', './dist/chrome-dark-dp/images', {
-  recursive: true,
-});
+fs.cpSync(
+  './themes/Chrome/extension-dark/images',
+  './dist/chrome-dark-dp/images',
+  {
+    recursive: true,
+  },
+);
 
 const chromeDarkDpDotZip = new ADMZip();
 chromeDarkDpDotZip.addLocalFolder('./dist/chrome-dark-dp');

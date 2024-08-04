@@ -2,14 +2,14 @@
  * Lint themes to ensure they only use colors from the palette
  */
 
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import _ from 'lodash';
 import { glob } from 'glob';
 import stripJsonComments from 'strip-json-comments';
 import terminalLink from 'terminal-link';
 import rgbHex from 'rgb-hex';
-import cssColorNames from 'css-color-names' with { type: 'json' };
+import { cssColorNames } from './lib/cssColorNames.mjs';
 
 // TODO: Terminal.app
 // TODO: Vivaldi (inside .zip file)
@@ -206,12 +206,12 @@ const CUSTOM_LINTERS = [
         return;
       }
 
-      Object.values(theme).forEach(([r, g, b]) => {
+      for (const [r, g, b] of Object.values(theme)) {
         const color = `#${rgbHex(r, g, b)}`;
         if (isValidHexColor(color, validColors, exceptions) === false) {
           achtung(`${color} (${r}, ${g}, ${b})`);
         }
-      });
+      }
     },
   },
   {
@@ -220,11 +220,11 @@ const CUSTOM_LINTERS = [
     lintFunction: (file, validColors, exceptions) => {
       const theme = readJsonFile(file);
 
-      theme.forEach((color) => {
+      for (const color of theme) {
         if (isValidHexColor(color, validColors, exceptions) === false) {
           achtung(color);
         }
-      });
+      }
     },
   },
   {
@@ -234,17 +234,20 @@ const CUSTOM_LINTERS = [
       const text = fs.readFileSync(file, 'utf8');
 
       const matches = text.match(/<real>[^<]*<\/real>/gi);
-      const numbers = matches.map((x) => Number(x.replace(/<\/?real>/gi, '')));
+      const numbers = matches.map((x) =>
+        Number(x.replaceAll(/<\/?real>/gi, '')),
+      );
       const colors = _.chunk(numbers, 4);
 
-      colors.forEach(([a, b, g, r]) => {
+      for (const [a, b, g, r] of colors) {
         const color = `#${rgbHex(r * 255, g * 255, b * 255, a)}`;
         if (isValidHexColor(color, validColors, exceptions) === false) {
           achtung(`${color} (${r}, ${g}, ${b}, ${a})`);
         }
-      });
+      }
     },
   },
+  /*
   {
     // Terminal
     condition: (file) => file.endsWith('.terminal'),
@@ -254,24 +257,24 @@ const CUSTOM_LINTERS = [
       const matches = text.match(/<data>[^<]*<\/data>/gim);
       const base64s = matches.map((x) =>
         x
-          .replace(/<\/?data>/gi, '')
-          .replace(/\n/g, '')
+          .replaceAll(/<\/?data>/gi, '')
+          .replaceAll('\n', '')
           .trim(),
       );
-      const values = base64s.map((x) => new Buffer(x, 'base64').toString());
+      const values = base64s.map((x) => Buffer.from(x, 'base64').toString());
 
       // TODO: There are colors somewhere but it needs more work
     },
   },
+  */
 ];
 
-function achtung(value, description) {
+function achtung(value) {
   console.error(`🦀 Invalid color:`, value);
   errorCount++;
 }
 
 function readJsonFile(file) {
-  return JSON.parse(stripJsonComments(fs.readFileSync(file, 'utf8')));
   return JSON.parse(stripJsonComments(fs.readFileSync(file, 'utf8')));
 }
 
@@ -286,7 +289,7 @@ function isHexColor(value) {
   if (typeof value !== 'string') {
     return false;
   }
-  return /^#[0-9a-f]{3,8}$/i.test(value);
+  return /^#[\da-f]{3,8}$/i.test(value);
 }
 
 function isValidHexColor(value, validColors, exceptions) {
@@ -310,8 +313,8 @@ function isValidHexColor(value, validColors, exceptions) {
   return false;
 }
 
-function scanObject(obj, callback) {
-  for (const value of Object.values(obj)) {
+function scanObject(object, callback) {
+  for (const value of Object.values(object)) {
     if (typeof value === 'object') {
       scanObject(value, callback);
     } else {
@@ -324,7 +327,7 @@ function lintJson(file, validColors, exceptions) {
   let theme;
   try {
     theme = readJsonFile(file);
-  } catch (err) {
+  } catch {
     lintText(file, validColors, exceptions);
     return;
   }
@@ -348,13 +351,13 @@ function lintJson(file, validColors, exceptions) {
 function lintText(file, validColors, exceptions) {
   const text = fs.readFileSync(file, 'utf8');
 
-  const matches = text.match(/#[0-9a-f]{3,8}\b/gi);
+  const matches = text.match(/#[\da-f]{3,8}\b/gi);
 
-  matches.forEach((color) => {
+  for (const color of matches) {
     if (isValidHexColor(color, validColors, exceptions) === false) {
       achtung(color);
     }
-  });
+  }
 }
 
 function lint(root, palette, extraFiles) {
@@ -364,7 +367,7 @@ function lint(root, palette, extraFiles) {
     ...extraFiles,
   ];
   const themesSorted = themes.toSorted((a, b) => a.localeCompare(b, 'en'));
-  themesSorted.forEach((file) => {
+  for (const file of themesSorted) {
     const filename = path.basename(file);
     if (IGNORES.includes(filename) || file.includes('node_modules')) {
       return;
@@ -388,13 +391,15 @@ function lint(root, palette, extraFiles) {
     switch (extension) {
       case '.json':
       case '.theme':
-      case '.alfredappearance':
+      case '.alfredappearance': {
         lintJson(file, validColors, exceptions);
         break;
-      default:
+      }
+      default: {
         lintText(file, validColors, exceptions);
+      }
     }
-  });
+  }
 }
 
 console.log();

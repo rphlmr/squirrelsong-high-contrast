@@ -4,11 +4,11 @@
   Once a upon a time...
 -->
 
-| Name       | Value            |
-| ---------- | ---------------- |
-| location   | Hundred Acre Wood     |
-| birth date | 1924             |
-| death date | 1936             |
+| Name       | Value             |
+| ---------- | ----------------- |
+| location   | Hundred Acre Wood |
+| birth date | 1924              |
+| death date | 1936              |
 | weaknesses | Hazelnuts, Donuts |
 
 <!-- ...There was a squirrel named Squeaky -->

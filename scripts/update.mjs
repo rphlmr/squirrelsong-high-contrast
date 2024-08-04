@@ -2,7 +2,7 @@
  * Generate Markdown palette tables in Readme files from JSON files
  */
 
-import fs from 'fs';
+import fs from 'node:fs';
 import stripJsonComments from 'strip-json-comments';
 import hexRgb from 'hex-rgb';
 
@@ -10,7 +10,7 @@ const SWATCH_SIZE = 20;
 
 const stripSharp = (hex) => hex.replace('#', '');
 
-const swatch = (hex, name) =>
+const swatch = (hex) =>
   `<img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=${stripSharp(
     hex,
   )}" width="${SWATCH_SIZE}" height="${SWATCH_SIZE}" alt="">`;

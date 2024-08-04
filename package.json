@@ -13,19 +13,22 @@
   "type": "module",
   "scripts": {
     "format": "prettier --log-level warn --write --ignore-unknown \"**/*.*\"",
-    "update": "node scripts/update.js",
-    "prepare-extensions": "node scripts/prepare-extensions.js",
-    "prepare-vscode": "node scripts/prepare-vscode.js",
-    "lint": "node scripts/lint.js",
-    "test": "npm run lint"
+    "update": "node scripts/update.mjs",
+    "prepare-extensions": "node scripts/prepare-extensions.mjs",
+    "prepare-vscode": "node scripts/prepare-vscode.mjs",
+    "lint": "eslint . --cache --fix",
+    "lint:themes": "node scripts/lint.mjs",
+    "test": "npm run lint && npm run lint:themes"
   },
   "devDependencies": {
-    "prettier": "^3.0.1"
+    "eslint": "^9.8.0",
+    "eslint-config-tamia": "^9.1.10",
+    "prettier": "^3.3.3"
   },
   "dependencies": {
-    "adm-zip": "^0.5.12",
+    "adm-zip": "^0.5.14",
     "css-color-names": "^1.0.1",
-    "glob": "^10.3.10",
+    "glob": "^11.0.0",
     "hex-rgb": "^5.0.0",
     "lodash": "^4.17.21",
     "rgb-hex": "^4.1.0",
