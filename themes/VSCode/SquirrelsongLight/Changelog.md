@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.9
+
+- Fix Mdx highlighting.
+
 ## 3.2.8
 
 - Improve readability of braces in JSX.

@@ -379,7 +379,8 @@
     {
       "scope": [
         // Markdown headings: #, ##, etc.
-        "entity.name.section.markdown"
+        "entity.name.section.markdown",
+        "entity.name.section.mdx"
       ],
       "settings": {
         "foreground": "#4c4b4e",
@@ -398,6 +399,7 @@
         "markup.heading.markdown",
         "markup.heading.setext.1",
         "markup.heading.setext.2",
+        "string.other.strong.asterisk.mdx",
         // Rust
         "meta.attribute.rust",
         // Shell
@@ -488,6 +490,8 @@
         "punctuation.separator.array.json",
         // Markdown
         "punctuation.definition.heading.markdown",
+        "punctuation.definition.heading.mdx",
+        "string.other.emphasis.underscore.mdx",
         "string.other.link.description.markdown",
         "string.other.link.description.title.markdown",
         "string.other.link.title.markdown",
@@ -541,7 +545,16 @@
         "punctuation.definition.string.begin.markdown",
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.table.markdown",
-        "punctuation.separator.table.markdown"
+        "punctuation.separator.table.markdown",
+        "keyword.other.tasklist.mdx",
+        "string.other.begin.image.mdx",
+        "string.other.begin.link.mdx",
+        "string.other.begin.mdx",
+        "string.other.end.mdx",
+        "string.other.link.destination.mdx",
+        "string.other.number.mdx",
+        "variable.ordered.list.mdx",
+        "variable.unordered.list.mdx"
       ],
       "settings": {
         "foreground": "#9c96a2",
@@ -999,20 +1012,20 @@
         // INI
         "entity.name.section.group-title.ini",
         // JavaScript / TypeScript
-        "keyword.operator.new.js",
-        "keyword.operator.new.ts",
-        "keyword.operator.new.tsx",
+        "entity.name.tag.js",
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx",
         "keyword.operator.expression.in.js",
         "keyword.operator.expression.in.ts",
         "keyword.operator.expression.in.tsx",
         "keyword.operator.expression.typeof.js",
         "keyword.operator.expression.typeof.ts",
         "keyword.operator.expression.typeof.tsx",
-        "entity.name.tag.js",
-        "entity.name.tag.js.jsx",
-        "entity.name.tag.tsx",
+        "keyword.operator.new.js",
+        "keyword.operator.new.ts",
+        "keyword.operator.new.tsx",
         "support.class.component.js",
-        "support.class.component.js.jsx",
+        "support.class.component.jsx",
         "support.class.component.tsx",
         // Python
         "constant.character.format.placeholder.other.python",
@@ -1038,6 +1051,9 @@
         "meta.tag",
         "declaration.tag",
         // JavaScript / TypeScript
+        "punctuation.definition.tag.closing.jsx",
+        "punctuation.definition.tag.end.jsx",
+        "punctuation.definition.tag.self-closing.jsx",
         "punctuation.section.embedded.begin.js.jsx",
         "punctuation.section.embedded.begin.js",
         "punctuation.section.embedded.begin.ts",

@@ -1,4 +1,6 @@
-import Comp from './comp';
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Typography" />
 
 # Squirrelsong Theme
 
@@ -30,3 +32,22 @@ export function Local(props) {
 
 - [ ] check check 12 12
 - [ ] check check 12 12
+
+
+<div className="sb-unstyled light text-textPrimary flex flex-col gap-8">
+  <div className="typo-large-title">Typography</div>
+  <div className="grid grid-cols-2 gap-4">
+    <section lang="en" className="flex flex-col gap-2">
+      <h2 className="text-textSecondary typo-caption-1">English/German</h2>
+      <p className="typo-large-title">
+        Large Title. The quick brown fox jumps over the lazy dog
+      </p>
+      <p className="typo-title-1">
+        Title 1. The quick brown fox jumps over the lazy dog
+      </p>
+      <p className="typo-title-2">
+        Title 2. The quick brown fox jumps over the lazy dog
+      </p>
+    </section>
+  </div>
+</div>
