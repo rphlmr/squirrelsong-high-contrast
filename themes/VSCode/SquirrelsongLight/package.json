@@ -2,7 +2,7 @@
   "name": "Theme-SquirrelsongLight",
   "displayName": "Squirrelsong Light Theme",
   "description": "Low-contrast light color theme",
-  "version": "3.2.8",
+  "version": "3.2.9",
   "publisher": "sapegin",
   "author": {
     "name": "Artem Sapegin",
@@ -58,10 +58,10 @@
     "images/icon.png"
   ],
   "scripts": {
-    "prepublish": "cd ../../../; node scripts/prepare-vscode.js",
+    "prepublish": "cd ../../../; node scripts/prepare-vscode.mjs",
     "publish": "vsce publish"
   },
   "devDependencies": {
-    "vsce": "^2.9.1"
+    "@vscode/vsce": "^2.31.1"
   }
 }
