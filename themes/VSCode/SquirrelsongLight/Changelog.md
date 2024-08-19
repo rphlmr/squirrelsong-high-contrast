@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.10
+
+- Correctly highlight JavaScript `of` operator.
+
 ## 3.2.9
 
 - Fix Mdx highlighting.
