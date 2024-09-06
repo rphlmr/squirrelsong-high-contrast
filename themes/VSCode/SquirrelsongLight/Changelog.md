@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.11
+
+- Add new action list colors.
+
 ## 3.2.10
 
 - Correctly highlight JavaScript `of` operator.
