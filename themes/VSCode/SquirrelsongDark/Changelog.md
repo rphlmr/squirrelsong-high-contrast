@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.1.
+
+- Darker find match background.
+
 ## 3.0.0
 
 - Update color palette.
