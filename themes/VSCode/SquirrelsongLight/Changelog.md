@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.13
+
+- Remove unnecessary files from the package.
+
+## 3.0.12
+
+- Revert recent find match background change because it obscures selection.
+
 ## 3.2.11
 
 - Add new action list colors.
