@@ -1,6 +1,10 @@
 # Changelog
 
-## 3.0.1.
+## 3.0.2
+
+- Revert recent find match background change because it obscures selection.
+
+## 3.0.1
 
 - Darker find match background.
 

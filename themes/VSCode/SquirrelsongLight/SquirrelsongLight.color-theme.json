@@ -68,7 +68,7 @@
     "dropdown.foreground": "#78737d",
     "dropdown.listBackground": "#f7f6f9",
     "editor.background": "#fdfdfe",
-    "editor.findMatchBackground": "#fae1ea",
+    "editor.findMatchBackground": "#e87da433",
     "editor.findMatchBorder": "#e87da4",
     "editor.findMatchHighlightBackground": "#e87da433",
     "editor.findRangeHighlightBackground": "#f5da7022",
