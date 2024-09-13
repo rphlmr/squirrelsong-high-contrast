@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.3
+
+- Remove unnecessary files from the package.
+
 ## 3.0.2
 
 - Revert recent find match background change because it obscures selection.
