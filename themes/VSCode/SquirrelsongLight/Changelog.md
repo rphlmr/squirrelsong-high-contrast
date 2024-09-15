@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.14
+
+- Fix missing theme files and readme.
+
 ## 3.0.13
 
 - Remove unnecessary files from the package.

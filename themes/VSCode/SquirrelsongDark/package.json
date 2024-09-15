@@ -45,10 +45,6 @@
       }
     ]
   },
-  "files": [
-    "SquirrelsongDark.color-theme.json",
-    "images/icon.png"
-  ],
   "scripts": {
     "publish": "vsce publish"
   },

@@ -53,11 +53,6 @@
       }
     ]
   },
-  "files": [
-    "SquirrelsongLight.color-theme.json",
-    "images/icon.png",
-    "License.md"
-  ],
   "scripts": {
     "prepublish": "cd ../../../; node scripts/prepare-vscode.mjs",
     "publish": "vsce publish"
