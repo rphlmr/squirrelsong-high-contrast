@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.15
+
+- Fix missing CSS property/value styles.
+
 ## 3.0.14
 
 - Fix missing theme files and readme.

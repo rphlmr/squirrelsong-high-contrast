@@ -944,6 +944,7 @@
         "support.type.vendored.property-name.css",
         "support.type.property-name.media.css",
         "entity.other.attribute-name.css",
+        "meta.property-name.css",
         "meta.property-name.media-query.scss",
         // EditorConfig
         "keyword.other.definition.indent_style.editorconfig",
@@ -1113,6 +1114,7 @@
         "keyword.other.unit",
         // CSS
         "entity.other.attribute-name.placeholder.css",
+        "meta.property-value.css",
         "meta.property-value.media-query.scss",
         // JSON
         "constant.language.json"
