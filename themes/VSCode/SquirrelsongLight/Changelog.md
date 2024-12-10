@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.3.0
+
+- Add High Contrast theme (light)
+
 ## 3.0.15
 
 - Fix missing CSS property/value styles.
