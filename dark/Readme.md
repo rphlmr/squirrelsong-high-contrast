@@ -6,6 +6,7 @@
 
 ## Available themes
 
+- [Ghostty](../themes/Ghostty)
 - [iTerm2](../themes/iTerm2)
 - [Midnight Commander](../themes/Midnight%20Commander)
 - [Prism.js](../themes/PrismJs)
