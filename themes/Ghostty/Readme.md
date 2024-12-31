@@ -4,7 +4,7 @@
 
 ## Installation from GitHub
 
-1. Copy the [`Squirrelsong Dark`](Squirrelsong Dark) to `~/.config/ghostty/themes`.
+1. Copy the [`Squirrelsong Dark`](Squirrelsong%20Dark) to `~/.config/ghostty/themes`.
 
 2. Update your Ghostty config, `~/.config/ghostty/ghostty`, so it looks something like this:
 
