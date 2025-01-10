@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.16
+
+- Tweak notebook editor cell background to increase contrast.
+
 ## 3.0.15
 
 - Fix missing CSS property/value styles.
