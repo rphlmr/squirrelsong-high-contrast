@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "version": "1.1",
+  "name": "Squirrelsong Light",
+  "theme": {
+    "images": {},
+    "properties": {
+      "color_scheme": "light",
+      "content_color_scheme": "light"
+    },
+    "colors": {
+      "bookmark_text": "rgb(120, 115, 125)",
+      "button_background_active": "rgb(219, 215, 224)",
+      "button_background_hover": "rgb(232, 229, 235)",
+      "frame_inactive": "rgb(232, 229, 235)",
+      "frame": "rgb(232, 229, 235)",
+      "icons_attention": "rgb(76, 75, 78)",
+      "icons": "rgb(140, 135, 146)",
+      "ntp_background": "rgb(255, 255, 255)",
+      "ntp_card_background": "rgb(232, 229, 235)",
+      "ntp_text": "rgb(120, 115, 125)",
+      "popup_border": "rgb(201, 196, 207)",
+      "popup_highlight_text": "rgb(76, 75, 78)",
+      "popup_highlight": "rgb(219, 215, 224)",
+      "popup_text": "rgb(76, 75, 78)",
+      "popup": "rgb(247, 246, 249)",
+      "sidebar_border": "rgb(201, 196, 207)",
+      "sidebar_highlight_text": "rgb(76, 75, 78)",
+      "sidebar_highlight": "rgb(219, 215, 224)",
+      "sidebar_text": "rgb(107, 103, 111)",
+      "sidebar": "rgb(247, 246, 249)",
+      "tab_background_text": "rgb(76, 75, 78)",
+      "tab_line": "rgb(247, 246, 249)",
+      "tab_loading": "rgb(140, 135, 146)",
+      "tab_selected": "rgb(247, 246, 249)",
+      "tab_text": "rgb(120, 115, 125)",
+      "toolbar_bottom_separator": "rgb(201, 196, 207)",
+      "toolbar_field_border_focus": "rgb(120, 115, 125)",
+      "toolbar_field_border": "rgb(201, 196, 207)",
+      "toolbar_field_focus": "rgb(255, 255, 255)",
+      "toolbar_field_highlight_text": "rgb(76, 75, 78)",
+      "toolbar_field_highlight": "rgb(219, 215, 224)",
+      "toolbar_field_text_focus": "rgb(76, 75, 78)",
+      "toolbar_field_text": "rgb(76, 75, 78)",
+      "toolbar_field": "rgb(255, 255, 255)",
+      "toolbar_text": "rgb(140, 135, 146)",
+      "toolbar_top_separator": "rgb(201, 196, 207)",
+      "toolbar_vertical_separator": "rgb(201, 196, 207)",
+      "toolbar": "rgb(247, 246, 249)"
+    }
+  }
+}

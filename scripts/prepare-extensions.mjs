@@ -79,4 +79,19 @@ const chromeDevtoolsDotZip = new ADMZip();
 chromeDevtoolsDotZip.addLocalFolder('./dist/chrome-devtools-light');
 chromeDevtoolsDotZip.writeZip(`./dist/chrome-devtools-light.zip`);
 
+console.log(`[BUILD] Building Firefox Light extension...`);
+
+fs.mkdirSync('./dist', { recursive: true });
+
+// Firefox Light
+fs.mkdirSync('./dist/firefox-light', { recursive: true });
+fs.copyFileSync(
+  './themes/Firefox/extension/manifest.json',
+  './dist/firefox-light/manifest.json',
+);
+
+const firefoxLightDotZip = new ADMZip();
+firefoxLightDotZip.addLocalFolder('./dist/firefox-light');
+firefoxLightDotZip.writeZip(`./dist/firefox-light.zip`);
+
 console.log('[BUILD] Done 🦜');

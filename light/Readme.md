@@ -6,6 +6,7 @@
 
 - [Alfred](../themes/Alfred)
 - [Bear](../themes/Bear)
+- [Firefox](../themes/Firefox)
 - [Google Chrome](../themes/Chrome)
 - [Google Chrome DevTools](../themes/Chrome%20DevTools)
 - [CotEditor](../themes/CotEditor)
