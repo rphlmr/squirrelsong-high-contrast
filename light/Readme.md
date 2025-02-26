@@ -104,9 +104,9 @@
 
 |                                                                                                             | Where                                   | Color        | Hex     | Comments         |
 | ----------------------------------------------------------------------------------------------------------- | --------------------------------------- | ------------ | ------- | ---------------- |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4c4b4e" width="20" height="20" alt="">   | Title text foreground, match foreground | gray07       | #4c4b4e |                  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4c4b4e" width="20" height="20" alt="">   | Title text foreground, match foreground | gray04       | #4c4b4e |                  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=78737d" width="20" height="20" alt="">   | Text foreground                         | gray07       | #78737d |                  |
-| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=8c8792" width="20" height="20" alt="">   | Secondary text foreground               | gray07       | #8c8792 |                  |
+| <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=8c8792" width="20" height="20" alt="">   | Secondary text foreground               | gray08       | #8c8792 |                  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=9c96a2" width="20" height="20" alt="">   | Disabled foreground                     | gray09       | #9c96a2 |                  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=4c4b4e" width="20" height="20" alt="">   | Active foreground                       | gray04       | #4c4b4e |                  |
 | <img src="http://www.thecolorapi.com/id?format=svg&named=false&hex=527b98" width="20" height="20" alt="">   | Link foreground                         | blueContrast | #527b98 |                  |
