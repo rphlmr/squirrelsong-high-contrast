@@ -58,7 +58,7 @@ Here are my settings related to theming and typography:
 
 ## High contrast version
 
-![Squirrelsong Light: opening files](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/screenshots/screenshot-high-contrast.png)
+![Squirrelsong Light: opening files](https://github.com/sapegin/squirrelsong/raw/HEAD/themes/VSCode/screenshots/screenshot-high-contrast-no-italics.png)
 
 ## How to make the integrated terminal dark?
 

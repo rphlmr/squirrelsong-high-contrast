@@ -47,9 +47,9 @@
         "path": "./SquirrelsongLight.color-theme.json"
       },
       {
-        "label": "Squirrelsong Light High Contrast",
+        "label": "Squirrelsong Light High Contrast (no italics)",
         "uiTheme": "vs",
-        "path": "./SquirrelsongLightHighContrast.color-theme.json"
+        "path": "./SquirrelsongLightHighContrastNoItalics.color-theme.json"
       },
       {
         "label": "Squirrelsong Light (Dark Terminal)",

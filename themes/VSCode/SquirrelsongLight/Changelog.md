@@ -2,7 +2,7 @@
 
 ### 3.3.0
 
-- Add High Contrast theme (light)
+- Add High Contrast theme (light, no italics)
 
 ## 3.0.16
 

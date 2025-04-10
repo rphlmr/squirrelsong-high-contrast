@@ -1,13 +1,13 @@
 {
-  "name": "Squirrelsong Light High Contrast",
+  "name": "Squirrelsong Light High Contrast (no italics)",
   "type": "light",
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function": { "foreground": "#527b98", "fontStyle": "bold" },
     "class": { "foreground": "#527b98", "fontStyle": "bold" },
     "method": { "foreground": "#527b98", "fontStyle": "bold" },
-    "variable": { "foreground": "#527b98", "fontStyle": "italic" },
-    "module": { "foreground": "#527b98", "fontStyle": "italic" },
+    "variable": { "foreground": "#527b98", "fontStyle": "" },
+    "module": { "foreground": "#527b98", "fontStyle": "" },
     "property": { "foreground": "#527b98", "fontStyle": "" },
     "enumMember": { "foreground": "#527b98", "fontStyle": "" },
     "type": { "foreground": "#468173", "fontStyle": "" },
@@ -395,7 +395,7 @@
     },
     {
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": ""
       },
       "scope": [
         // Markdown
@@ -889,7 +889,7 @@
     {
       "settings": {
         "foreground": "#527b98",
-        "fontStyle": "italic"
+        "fontStyle": ""
       },
       "scope": [
         "variable",
